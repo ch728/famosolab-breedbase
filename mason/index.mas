@@ -1,0 +1,17 @@
+<%args>
+$schema
+$static_content_path => undef
+$show_accept_dialog => undef
+$phenotype_files => undef
+$breeding_programs => undef
+$locations => undef
+$preferred_species => undef
+$editable_stock_props => {}
+$timestamp
+</%args>
+
+<& homepage/carousel.mas &>
+<br/><br/>
+
+
+

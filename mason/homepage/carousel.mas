@@ -1,0 +1,253 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- Indicators -->
+    <ol class="carousel-indicators" style="display:none">
+      <li data-target="#myCarousel" data-slide-to="0"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item">
+        <div style="background:url(/documents/lsu_img/homepage/rice_paddies.jpg) center center; background-size:cover;" class="slider-size">
+        </div>
+      </div>
+</div>
+<style>
+	.sgn_carousel_button_group {
+		margin-left: 10px;
+		margin-top: 10px;
+		width:98% !important;
+	}
+	.slider-size {
+	  height: 400px; /* This is your slider height */
+	}
+	.carousel {
+	  max-width:98%;
+	  /*width:100%;*/
+	  margin:0 auto; /* center your carousel if other than 100% */
+	  margin-bottom:0px;
+	}
+	.carousel-sgn-caption { 
+	  position:relative;
+	  float: left;
+	  max-width:49%;
+	  min-width:35%;
+	  padding: 0px 10px 0px 10px;
+	  margin-top:20px;
+    color: #444;
+	  font-size: 16px;
+	  text-decoration: none;
+	  background-color: #fff;
+	  opacity: 0.80;
+	  filter: alpha(opacity=80); /* For IE8 and earlier */
+	  border-top-right-radius:12px;
+	  border-bottom-right-radius:12px;
+	}
+	.carousel-sgn-caption a { 
+    color: #444;
+	  text-decoration: none;
+	}
+	.carousel-sgn-caption a:hover { 
+	  color: #00426c;
+	  text-decoration: none;
+	}
+	.carousel-sgn-links {
+	  position:absolute;
+	  min-width:35%;
+	  max-width:49%;
+	  margin-top:20px;
+	  right:0px;
+	  color: #000;
+	  font-size: 16px;
+	  text-decoration: none;
+	  background-color: #fff;
+	  opacity: 0.85;
+	  filter: alpha(opacity=85); /* For IE8 and earlier */
+	  border-top-left-radius:12px;
+	  border-bottom-left-radius:12px;
+	}
+	.carousel-sgn-links ul { 
+	  padding: 10px 0px 0px 15px;
+	  list-style-type: none;
+	}
+	.carousel-sgn-links a { 
+	  color: #000;
+	  text-decoration: none;
+	}
+	.carousel-sgn-links a:hover { 
+	  color: #666;
+	  text-decoration: none;
+	}
+  .sgn_sm_list {
+    color: #444;
+    width: 100%;
+    padding: 0px;
+    padding-left: 5px;
+  }
+  .sgn_sm_list li {
+    color: #444;
+    width: 100%;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .sgn_sm_list li:hover {
+    color: #00426c;
+  }
+  #btn_carousel_indicators {
+    cursor: pointer;
+  }
+	@media (min-width: 0px) and (max-width: 768px) {
+    .carousel-sgn-caption {
+      margin-top:0px;
+      width: 100%;
+      max-width: 100%;
+      border-radius:0px;
+      float: none;
+      margin-bottom:0px;
+      opacity: 0.90;
+    }
+    .carousel-sgn-links {
+      background-color: #efefef;
+      max-width: 100%;
+      width: 100%;
+      border-radius:0px;
+      bottom:0px;
+      opacity: 0.9;
+    }
+  	.carousel-sgn-links ul { 
+  	  padding: 0px;
+      margin-bottom: 0px;
+  	}
+    .sgn_sm_list li {
+      color: #00426c;
+      width: 100%;
+      position: relative;
+      display: block;
+      padding: 0px;
+      padding-left: 5px;
+      border: 1px solid #ddd;
+    }
+    .sgn_sm_list li:hover {
+      color: #444;
+  	  background-color: #fff;
+      opacity: 1;
+    }
+/*    .carousel-indicators {
+      bottom:0px;
+      margin-bottom: 0px;
+      width:100%;
+      left:auto;
+      margin-left:auto;
+    }
+*/    
+    .nav-pills>li>a {
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+  	.sgn_carousel_button_group {
+      margin-left: 5px;
+  		margin-top: 5px;
+  		width:98% !important;
+  	}
+	}
+	.carousel-control {
+		height:100px;
+		margin-top:170px
+	}
+  .transition-timer-carousel-progress-bar {
+      height: 4px;
+      background-color: #337ab7;
+      width: 0;
+      margin: 0 0 0 0;
+      border: none;
+      z-index: 11;
+      position: relative;
+      border-radius: 0px;
+  }
+  .progress {
+    margin-top: 5px;
+    border-radius: 0px;
+  }
+</style>
+<!--
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+-->
+<script>
+  jQuery(document).ready(function() {
+    var $item = jQuery('.carousel .item');
+    // var $wHeight = jQuery(window).height();
+    var numberofSlides = jQuery('.item').length;
+    var randomSlide = Math.floor((Math.random() * numberofSlides));
+    var currentSlide = randomSlide;
+    jQuery('.carousel-indicators li').each(function(){
+      var $slideValue = jQuery(this).attr('data-slide-to');
+      if (randomSlide == $slideValue) {
+        jQuery(this).addClass('active');
+        $item.eq($slideValue).addClass('active');
+      } else {
+        jQuery(this).removeClass('active');
+        $item.eq($slideValue).removeClass('active');
+      }
+    });
+    jQuery('#btn_carousel_indicators a').each(function(){
+      var $slideValue = jQuery(this).attr('data-slide-to');
+      // alert("currentSlide: "+$currentSlide+", slideValue: "+$slideValue)
+      if (randomSlide == $slideValue) {
+        jQuery(this).parent().addClass('active');
+      } else {
+        jQuery(this).parent().removeClass('active');
+      }
+    });
+    jQuery('#myCarousel').bind('slid.bs.carousel', function (e) {
+      jQuery('.carousel-indicators li').each(function(){
+        if (jQuery(this).hasClass('active')) {
+          currentSlide = jQuery(this).attr('data-slide-to');;
+        }
+      }); 
+      jQuery('#btn_carousel_indicators li').removeClass('active');
+      jQuery('#btn_carousel_indicators a').each(function(){
+        var $slideValue = jQuery(this).attr('data-slide-to');
+        // alert("currentSlide: "+currentSlide+", slideValue: "+$slideValue)
+        if(currentSlide == $slideValue) {
+          jQuery(this).parent().addClass('active');
+        }
+      });
+    });
+    // touch screen
+		//     $("#myCarousel").swiperight(function() {
+		//       $("#myCarousel").carousel('prev');
+		//     });
+		//
+		// $("#myCarousel").swipeleft(function() {
+		//       $("#myCarousel").carousel('next');
+		//     });
+  //progress bar
+  var percent = 0,
+  	interval = 50,//time showing each slide
+    $bar = jQuery('.transition-timer-carousel-progress-bar'),
+  	$crsl = jQuery('#myCarousel');
+    $crsl.carousel({//initialize
+      interval: false,
+      pause: true
+    }).on('slide.bs.carousel', function (){percent = 0;});//restart progress bar on new slide
+  	function progressBarCarousel() {
+      $bar.css({width:percent+'%'});
+  		percent = percent +0.5;
+  		if (percent>=100) {
+  			percent=0;
+  			$crsl.carousel('next');
+  		}
+  	}
+  	var barInterval = setInterval(progressBarCarousel, interval);//set interval to progressBarCarousel function
+    if (!(/Mobi/.test(navigator.userAgent))) {//tests if it isn't mobile, progress bar stop on mouse over slide
+      $crsl.hover(function(){
+            clearInterval(barInterval);
+          },
+          function(){
+            barInterval = setInterval(progressBarCarousel, interval);
+          }
+      );
+    }
+    jQuery(".ui-loading").css("display","none");
+    jQuery(".ui-loader").css("display","none");
+  });
+</script>

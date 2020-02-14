@@ -1,0 +1,54 @@
+
+<& /page/page_title.mas, title => "<i>Dioscorea alata</i> genome version 2.1" &>
+
+A new version of the <i>Dioscorea alata</i> genomes has been released.<br />
+<br />
+The reference genome is from accession <a href="/stock/39729/view">TDa9500328</a>.<br />
+<br />
+<div class="boxbgcolor5">
+  <h3>Data Usage Policy: <i>Dioscorea alata</i> v2.1</h3>
+    <h4>Restrictions on dataset usage</h4>
+    <p>
+      <b>I would like to use this data to help clone a gene, analyse a gene family, etc.</b><br>
+      Please use this data to advance your studies. Please cite "<b><i>Dioscorea alata</i></b> v2.1 DOE-JGI, http://phytozome.jgi.doe.gov/".
+    </p>
+    <p>
+      <b>I would like to do a large-scale comparison of <i>Dioscorea alata</i>to other genomes, and/or a global analysis of its gene content</b>.<br>
+      We are committed to early data release and, as a service to the yam research and breeding community, we are therefore making the chromosome-scale <i>D. alata</i> genome assembly version 2 available prior to publication. Please note that gene names are provisional and subject to change over time.
+    </p>
+    <p>We (the data producers) encourage the pre-publication use of these data in accordance with the Toronto data sharing principles described at https://www.nature.com/articles/461168a. We anticipate publishing a description of the genome and genetic linkage maps in 2020. Questions about data use should be directed to Dr. Jessica Lyons (see below).
+    </p>
+    <p>By accessing these resources, data users agree that the following analyses are reserved for first description by the data producers:</p>
+    <ul>
+  <li>Genomic landscape and higher-order chromatin structure </li>
+  <li>Chromosome structure comparison with <i>D. rotundata</i></li>
+  <li>Gene and repeat content analyses</li>
+  <li>Analyses of genome-wide intra-species variation</li>
+  <li>Genome-wide inter-species comparisons</li>
+  </ul>
+  
+<h4>Contacts</h4>
+<ul>
+<li>Jessica Lyons (UC Berkeley) (email: jblyons AT berkeley DOT edu)</li>
+<li>Ranjana Bhattacharjee (IITA) (email: r.bhattacharjee AT cgiar DOT org)</li>
+<li>Jude Obidiegwu (NRCRI) (email: ejikeobi AT yahoo DOT com)</li>
+</ul>
+</div>
+
+<h3>Available Tools:</h3>
+<h4>BLAST</h4>
+
+<ul>
+<li><a href="/tools/blast?db_id=12">CDS</a></li>
+<li><a href="/tools/blast?db_id=23">Proteins</a></li>
+<li><a href="/tools/blast?db_id=25">Transcripts</a></li>
+<li><a href="/tools/blast?db_id=11">Genome</a></li>
+</ul>
+
+<h4>FTP Site</h4>
+
+<a href="ftp://ftp.yambase.org">ftp://ftp.yambase.org</a>
+
+<h4>Genome browser</h4>
+
+[Not yet]
