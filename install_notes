@@ -1,0 +1,5 @@
+
+
+# For setting up fresh breedbase_db with latest updates
+psql -U postgres -h breedbase_db -d breedbase_fresh -f t/data/fixture/empty_fixture.sql
+
