@@ -17,7 +17,7 @@ services:
         target: /home/production/cxgn/famosolabbase
       - type: bind
         source: ./repos/famosolabbase/lsu_img
-        target: /home/production/cxgn/sgn/documents/lsu_img)
+        target: /home/production/cxgn/sgn/documents/lsu_img
   breedbase_db:
     image: breedbase/pg:latest
     container_name: breedbase_db
