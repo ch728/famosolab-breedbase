@@ -1,5 +1,16 @@
 
+# Enter breedbase_web
+sudo docker exec -it breedbase_web bash
 
-# For setting up fresh breedbase_db with latest updates
+# Make a new database 'breedbase_fresh' in the the breedbase_db container
+
+# Add user "web_usr" and make password "postgres"
+psql -U postgres -h breedbase_db -c "add user web_usr"
+psql -U postgres -h breedbase_db -c "alter user web_usr password 'postgres'"
+
+# Fill 'breedbase_fresh' using fixture file
 psql -U postgres -h breedbase_db -d breedbase_fresh -f t/data/fixture/empty_fixture.sql
 
+# Run patches on 'breedbase_fresh'
+cd db
+./run_all_patches.pl -u web_usr -p postgres  -h breedbase_db -d breedbase_fresh -e janedoe
