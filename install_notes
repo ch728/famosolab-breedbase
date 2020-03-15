@@ -5,7 +5,7 @@ sudo docker exec -it breedbase_web bash
 # Make a new database 'breedbase_fresh' in the the breedbase_db container
 
 # Add user "web_usr" and make password "postgres"
-psql -U postgres -h breedbase_db -c "add user web_usr"
+psql -U postgres -h breedbase_db -c "create user web_usr"
 psql -U postgres -h breedbase_db -c "alter user web_usr password 'postgres'"
 
 # Fill 'breedbase_fresh' using fixture file
