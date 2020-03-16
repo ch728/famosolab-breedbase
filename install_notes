@@ -3,6 +3,10 @@
 sudo docker exec -it breedbase_web bash
 
 # Make a new database 'breedbase_fresh' in the the breedbase_db container
+psql -U postgres -h breedbase_db -c "create database breedbase_fresh"
+
+# Delete old database 'breedbase' in the the breedbase_db container
+psql -U postgres -h breedbase_db -c "drop database breedbase"
 
 # Add user "web_usr" and make password "postgres"
 psql -U postgres -h breedbase_db -c "create user web_usr"
