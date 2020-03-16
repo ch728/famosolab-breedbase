@@ -13,8 +13,8 @@
       <ul class="nav navbar-nav">
         <& toolbar/search_menu.mas &>
         <& toolbar/manage.mas &>
-        <!-- <& toolbar/analyze.mas &> -->
-        <& toolbar/about.mas &>
+        <& toolbar/analyze.mas &> 
+       <!--<& toolbar/about.mas &>-->
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <& toolbar/search.mas &>
