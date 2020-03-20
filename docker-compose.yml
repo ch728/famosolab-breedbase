@@ -10,8 +10,11 @@ services:
       - 7080:8080
     volumes:
       - type: bind
-        source: ./repos/sgn
-        target: /home/production/cxgn/sgn
+        source: ./sgn_local.conf
+        target: /home/production/cxgn/sgn/sgn_local.conf
+      - type: bind
+        source: ./sgn.conf
+        target: /home/production/cxgn/sgn/sgn.conf
       - type: bind
         source: ./repos/famosolabbase
         target: /home/production/cxgn/famosolabbase
