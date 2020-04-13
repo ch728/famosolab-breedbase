@@ -24,4 +24,25 @@ cd db
 # Load ontologies
 perl ~/cxgn/Chado/chado/bin/gmod_load_cvterms.pl -H breedbase_db -D breedbase_fresh -d Pg -s LSU_01 -v -u -r postgres -n lsuRice -p postgres ~/cxgn/famosolabbase/ontology/test_lsu_rice.obo 
 
+# Delete defualt ontologies
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cv_id = 16"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cv_id = 54"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cv_id = 58"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cv_id = 59"
+
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvprop where cv_id = 16"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvprop where cv_id = 58"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvprop where cv_id = 59"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=4"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=7"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=8"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=9"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=10"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=13"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=14"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=19"
+
+
+
+
 
