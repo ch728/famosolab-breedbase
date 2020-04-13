@@ -1,6 +1,8 @@
+# Start breedbase with docker-compose
+docker-compose up -d
 
 # Enter breedbase_web
-sudo docker exec -it breedbase_web bash
+docker exec -it breedbase_web bash
 
 # Make a new database 'breedbase_fresh' in the the breedbase_db container
 psql -U postgres -h breedbase_db -c "create database breedbase_fresh"
