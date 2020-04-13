@@ -42,6 +42,8 @@ psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm wher
 psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=14"
 psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=19"
 
+# Tag ontology as trait ontology
+perl ~/cxgn/sgn/bin/load_composed_cvprops.pl -H breedbase_db -D breedbase_fresh -T lsuRice
 
 
 
