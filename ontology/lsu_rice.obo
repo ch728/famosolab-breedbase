@@ -1058,7 +1058,7 @@ relationship: variable_of LSU_01:0000116
 id: LSU_01:0000137
 name: Gel Temperature class 1-3
 def: "1=Low (55-70 C),  2=intermediate (70-74.5 C), 3=high (74.5-80 C)" []
-
+relationship: scale of LSU_01:0000174
 
 [Term]
 id: LSU_01:0000137/1
@@ -1365,6 +1365,15 @@ def: "Filial generation as an ordinal factor; F4=4,  F5=5,  F6=6 etc." []
 relationship: variable_of LSU_01:0000048
 relationship: variable_of LSU_01:0000098
 relationship: variable_of LSU_01:0000117 
+
+[Term]
+id: LSU_01:0000174
+name: Gelatinization temperature class determination
+def: "Catogorization of gelatinization temperature class based on measurement of gelatinization temperature with RVA 4500" []
+relationship: method_of LSU_01:0000012
+
+
+[Term]
 
 [Typedef]
 id: method_of
