@@ -18,3 +18,8 @@ psql -U postgres -h breedbase_db -d breedbase_fresh -f t/data/fixture/empty_fixt
 # Run patches on 'breedbase_fresh'
 cd db
 ./run_all_patches.pl -u web_usr -p postgres  -h breedbase_db -d breedbase_fresh -e janedoe
+
+# Load ontologies
+perl ~/cxgn/Chado/chado/bin/gmod_load_cvterms.pl -H breedbase_db -D breedbase_fresh -d Pg -s LSU_01 -v -u -r postgres -n lsuRice -p postgres ~/cxgn/famosolabbase/ontology/test_lsu_rice.obo 
+
+
