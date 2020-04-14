@@ -1372,8 +1372,13 @@ name: Gelatinization temperature class determination
 def: "Catogorization of gelatinization temperature class based on measurement of gelatinization temperature with RVA 4500" []
 relationship: method_of LSU_01:0000012
 
-
 [Term]
+id: LSU_01:0000175
+name: gelTempClass_rva_ord
+def: "Gel temperature class based on RVA 4500 measurement in Celsius as an ordinal factor; 1=Low (55-70 C),  2=intermediate (70-74.5 C), 3=high (74.5-80 C)" []
+relationship: variable_of LSU_01:0000012
+relationship: variable_of LSU_01:0000174
+relationship: variable_of LSU_01:0000137
 
 [Typedef]
 id: method_of
