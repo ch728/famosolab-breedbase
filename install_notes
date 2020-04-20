@@ -23,6 +23,7 @@ cd db
 
 # Load ontologies
 perl ~/cxgn/Chado/chado/bin/gmod_load_cvterms.pl -H breedbase_db -D breedbase_fresh -d Pg -s LSU_01 -v -u -r postgres -n lsuRice -p postgres ~/cxgn/famosolabbase/ontology/lsu_rice.obo 
+perl ~/cxgn/Chado/chado/bin/gmod_load_cvterms.pl -H breedbase_db -D breedbase_fresh -d Pg -s LSU_02 -v -u -r postgres -n lsuRiceMarkers -p postgres ~/cxgn/famosolabbase/ontology/lsu_trait_markers.obo 
 
 # Delete defualt ontologies
 psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cv_id = 16"
@@ -46,7 +47,7 @@ psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm wher
 
 # Tag ontology as trait ontology
 perl ~/cxgn/sgn/bin/load_composed_cvprops.pl -H breedbase_db -D breedbase_fresh -T lsuRice
-
+perl ~/cxgn/sgn/bin/load_composed_cvprops.pl -H breedbase_db -D breedbase_fresh -T lsuRiceMarkers
 
 
 
