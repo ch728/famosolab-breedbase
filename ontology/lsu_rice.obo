@@ -1053,31 +1053,6 @@ relationship: variable_of LSU_01:0000013
 relationship: variable_of LSU_01:0000062
 relationship: variable_of LSU_01:0000116
 
-
-[Term]
-id: LSU_01:0000137
-name: Gel Temperature class 1-3
-def: "1=Low (55-70 C),  2=intermediate (70-74.5 C), 3=high (74.5-80 C)" []
-relationship: scale of LSU_01:0000174
-
-[Term]
-id: LSU_01:0000137/1
-name: Low (55-70 C)
-synonym: "1" []
-is_a: LSU_01:0000137
-
-[Term]
-id: LSU_01:0000137/2
-name: Intermediate (70-74.5 C)
-synonym: "2" []
-is_a: LSU_01:0000137
-
-[Term]
-id: LSU_01:0000137/3
-name: High (74.5-80 C)
-synonym: "3" []
-is_a: LSU_01:0000137
-
 [Term]
 id: LSU_01:0000138
 name: consistency_koh_ord 
@@ -1371,6 +1346,30 @@ id: LSU_01:0000174
 name: Gelatinization temperature class determination
 def: "Catogorization of gelatinization temperature class based on measurement of gelatinization temperature with RVA 4500" []
 relationship: method_of LSU_01:0000012
+
+[Term]
+id: LSU_01:0000137
+name: Gel Temperature class 1-3
+def: "1=Low (55-70 C),  2=intermediate (70-74.5 C), 3=high (74.5-80 C)" []
+relationship: scale_of LSU_01:0000174
+
+[Term]
+id: LSU_01:0000137/1
+name: Low (55-70 C)
+synonym: "1" []
+is_a: LSU_01:0000137
+
+[Term]
+id: LSU_01:0000137/2
+name: Intermediate (70-74.5 C)
+synonym: "2" []
+is_a: LSU_01:0000137
+
+[Term]
+id: LSU_01:0000137/3
+name: High (74.5-80 C)
+synonym: "3" []
+is_a: LSU_01:0000137
 
 [Term]
 id: LSU_01:0000175

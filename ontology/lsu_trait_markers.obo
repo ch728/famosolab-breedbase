@@ -1,0 +1,2118 @@
+﻿format-version: 1.2
+ontology: LSU_rice_ontology
+
+[Term]
+id: LSU_02:ROOT
+name: LSU Marker
+
+[Term]
+id: LSU_02:Agronomic
+name: Agronomic Trait Marker
+is_a: LSU_02:ROOT
+
+[Term]
+id: LSU_02:Disease
+name: Disease Trait Marker
+is_a: LSU_02:ROOT
+
+[Term]
+id: LSU_02:Grain
+name: Grain Quality Trait Marker
+is_a: LSU_02:ROOT
+
+[Term]
+id: LSU_02:Herbicide
+name: Herbicide Trait Marker
+is_a: LSU_02:ROOT
+
+
+[Term]
+id: LSU_02:Sterility
+name: Sterility Trait Marker
+is_a: LSU_02:ROOT
+
+[Term]
+id: LSU_02:0000002
+name: Blast
+def: "Marker related to blast resistance" []
+is_a: LSU_02:Disease
+
+[Term]
+id: LSU_02:0000003
+name: Pik
+def: "Gene conferring blast resistance on chromsome 11" []
+is_a: LSU_02:0000002
+
+[Term]
+id: LSU_02:0000004
+name: PikS
+def: "PikS mutation at ~27,820,000 bp; Primary" []
+is_a: LSU_02:0000003
+
+[Term]
+id: LSU_02:0000005
+name: PikS_KASP
+def: "KASP marker for PikS" []
+relationship: method_of LSU_02:0000004
+
+[Term]
+id: LSU_02:0000006
+name: PikS_snp_geno
+relationship: scale_of LSU_02:0000005
+
+[Term]
+id: LSU_02:0000006/0
+name: CC
+synonym: "0" EXACT []
+is_a: LSU_02:0000006
+
+[Term]
+id: LSU_02:0000006/1
+name: TC
+synonym: "1" EXACT []
+is_a: LSU_02:0000006
+
+[Term]
+id: LSU_02:0000006/2
+name: TT
+synonym: "2" EXACT []
+is_a: LSU_02:0000006
+
+[Term]
+id: LSU_02:0000007
+name: PikM
+def: "PikM mutation" []
+is_a: LSU_02:0000003
+
+[Term]
+id: LSU_02:0000008
+name: PikM_KASP
+def: "KASP marker for PikM  at ~27,820,001 bp; Primary" []
+relationship: method_of LSU_02:0000007
+
+[Term]
+id: LSU_02:0000009
+name: PikM_snp_geno
+relationship: scale_of LSU_02:0000008
+
+[Term]
+id: LSU_02:0000009/0
+name: CC
+synonym: "0" EXACT []
+is_a: LSU_02:0000009
+
+[Term]
+id: LSU_02:0000009/1
+name: GC
+synonym: "1" EXACT []
+is_a: LSU_02:0000009
+
+[Term]
+id: LSU_02:0000009/2
+name: GG
+synonym: "2" EXACT []
+is_a: LSU_02:0000009
+
+[Term]
+id: LSU_02:0000010
+name: Plant Height
+def: "Plant height trait marker" []
+is_a: LSU_02:Agronomic
+
+[Term]
+id: LSU_02:0000011
+name: Sd1
+def: "Gene related to plant height on chromosome 1" []
+is_a: LSU_02:0000010
+
+[Term]
+id: LSU_02:0000012
+name: Sd1-Cal
+def: "Mutation of Sd1 from Calrose" []
+is_a: LSU_02:0000011
+
+[Term]
+id: LSU_02:0000013
+name: Sd1-Cal_KASP
+def: "KASP marker for Sd1-Cal at 38,383,363 bp; Primary" []
+relationship: method_of LSU_02:0000012
+
+[Term]
+id: LSU_02:0000014
+name: Sd1-Cal_snp_geno
+relationship: scale_of LSU_02:0000013
+
+[Term]
+id: LSU_02:0000014/0
+name: TT
+synonym: "0" EXACT []
+synonym: "SH" EXACT []
+is_a: LSU_02:0000014
+
+[Term]
+id: LSU_02:0000014/1
+name: CT
+synonym: "1" EXACT []
+synonym: "Het" EXACT []
+synonym:"TC" EXACT []
+is_a: LSU_02:0000014
+
+[Term]
+id: LSU_02:0000014/2
+name: CC
+synonym: "2" EXACT []
+synonym: "TL" EXACT []
+is_a: LSU_02:0000014
+
+[Term]
+id: LSU_02:0000015
+name: Sd1-Del1
+def: "Deletion in Sd1 gene" []
+is_a: LSU_02:0000011
+
+[Term]
+id: LSU_02:0000016
+name: Sd1-Del1_KASP
+def: "KASP marker for deletion in Sd1 gene at 38,418,739 bp; Primary" []
+relationship: method_of LSU_02:0000015
+
+[Term]
+id: LSU_02:0000017
+name: Sd1-Del1_snp_geno
+relationship: scale_of LSU_02:0000016
+
+[Term]
+id: LSU_02:0000017/0
+name: GG
+synonym: "0" EXACT []
+synonym: "SH" EXACT []
+is_a: LSU_02:0000017
+
+[Term]
+id: LSU_02:0000017/1
+name: AG
+synonym: "1" EXACT []
+synonym: "Het" EXACT []
+is_a: LSU_02:0000017
+
+[Term]
+id: LSU_02:0000017/2
+name: AA
+synonym: "2" EXACT []
+synonym: "TL" EXACT []
+is_a: LSU_02:0000017
+
+[Term]
+id: LSU_02:0000018
+name: Sd1-Del2
+def: "Deletion in Sd1 gene" []
+is_a: LSU_02:0000011
+
+[Term]
+id: LSU_02:0000019
+name: Sd1-Del2_KASP
+def: "KASP marker for deletion in Sd1 gene at 38,362,132 bp; Backup" []
+relationship: method_of LSU_02:0000018
+
+[Term]
+id: LSU_02:0000020
+name: Sd1-Del2_snp_geno
+relationship: scale_of LSU_02:0000019
+
+[Term]
+id: LSU_02:0000020/0
+name: TT
+synonym: "0" EXACT []
+synonym: "SH" EXACT []
+is_a: LSU_02:0000020
+
+[Term]
+id: LSU_02:0000020/1
+name: CT
+synonym: "1" EXACT []
+synonym: "Het" EXACT []
+synonym: "TC" EXACT []
+is_a: LSU_02:0000020
+
+[Term]
+id: LSU_02:0000020/2
+name: CC
+synonym: "2" EXACT []
+synonym: "TL" EXACT []
+is_a: LSU_02:0000020
+
+[Term]
+id: LSU_02:0000021
+name: Pubescence
+def: "Pubescence gene marker" []
+is_a: LSU_02:Agronomic
+
+[Term]
+id: LSU_02:0000022
+name: Glab1
+def: "Pubescence gene on chromosome 5" []
+is_a: LSU_02:0000021
+
+[Term]
+id: LSU_02:0000023
+name: GLAB1
+def: "Mutation in Glab1 gene" []
+is_a: LSU_02:0000022
+
+[Term]
+id: LSU_02:0000024
+name: GLAB1_KASP
+def: "KASP marker for GLAB1 at 990,754 bp, Primary" []
+relationship: method_of LSU_02:0000023
+
+[Term]
+id: LSU_02:0000025
+name: GLAB1_snp_geno
+relationship: scale_of LSU_02:0000024
+
+[Term]
+id: LSU_02:0000025/0
+name: CC
+synonym: "0" EXACT []
+synonym: "Gib" EXACT []
+is_a: LSU_02:0000025
+
+[Term]
+id: LSU_02:0000025/1
+name: CT
+synonym: "1" EXACT []
+synonym: "Het" EXACT []
+synonym: "TC" EXACT []
+is_a: LSU_02:0000025
+
+[Term]
+id: LSU_02:0000025/2
+name: TT
+synonym: "2" EXACT []
+synonym: "TT" EXACT []
+is_a: LSU_02:0000025
+
+[Term]
+id: LSU_02:0000026
+name: Pi42
+def: "Gene conferring blast resistance on chromsome 8" []
+is_a: LSU_02:0000002
+
+[Term]
+id: LSU_02:0000027
+name: Pi42-20
+def: "Mutation in Pi42" []
+is_a: LSU_02:0000026
+
+[Term]
+id: LSU_02:0000028
+name: Pi42-20_KASP
+def: "KASP marker for Pi42-20 at 6,129,421 bp" []
+relationship: method_of LSU_02:0000027
+
+[Term]
+id: LSU_02:0000029
+name: Pi42-20_snp_geno
+relationship: scale_of LSU_02:0000028
+
+[Term]
+id: LSU_02:0000029/0
+name: AA
+synonym: "0" EXACT []
+is_a: LSU_02:0000029
+
+[Term]
+id: LSU_02:0000029/1
+name: AG
+synonym: "1" EXACT []
+is_a: LSU_02:0000029
+
+[Term]
+id: LSU_02:0000029/2
+name: GG
+synonym: "2" EXACT []
+is_a: LSU_02:0000029
+
+[Term]
+id: LSU_02:0000030
+name: Pi42-24
+def: "Mutation in Pi42" []
+is_a: LSU_02:0000026
+
+[Term]
+id: LSU_02:0000031
+name: Pi42-24_KASP
+def: "KASP marker for Pi42-24 at 5,970,933 bp" []
+relationship: method_of LSU_02:0000030
+
+[Term]
+id: LSU_02:0000032
+name: Pi42-24_snp_geno
+def: "KASP marker for Pi42-24 at 5,970,933 bp" []
+relationship: scale_of LSU_02:0000031
+
+[Term]
+id: LSU_02:0000032/0
+name: CC
+synonym: "0" EXACT []
+is_a: LSU_02:0000032
+
+[Term]
+id: LSU_02:0000032/1
+name: CT
+synonym: "1" EXACT []
+synonym: "Het" EXACT []
+synonym: "TC" EXACT []
+is_a: LSU_02:0000032
+
+[Term]
+id: LSU_02:0000032/2
+name: TT
+synonym: "2" EXACT []
+is_a: LSU_02:0000032
+
+[Term]
+id: LSU_02:0000033
+name: Pi42-25
+def: "Mutation in Pi42" []
+is_a: LSU_02:0000026
+
+[Term]
+id: LSU_02:0000034
+name: Pi42-25_KASP
+def: "KASP marker for Pi42-25 at 6,454,804 bp" []
+relationship: method_of LSU_02:0000033
+
+[Term]
+id: LSU_02:0000035
+name: Pi42-25_snp_geno
+relationship: scale_of LSU_02:0000034
+
+[Term]
+id: LSU_02:0000035/0
+name: CC
+synonym: "0" EXACT []
+is_a: LSU_02:0000035
+
+[Term]
+id: LSU_02:0000035/1
+name: CT
+synonym: "1" EXACT []
+is_a: LSU_02:0000035
+
+[Term]
+id: LSU_02:0000035/2
+name: TT
+synonym: "2" EXACT []
+is_a: LSU_02:0000035
+
+[Term]
+id: LSU_02:0000036
+name: Pi42-26
+def: "Mutation in Pi42" []
+is_a: LSU_02:0000026
+
+[Term]
+id: LSU_02:0000037
+name: KASP_Pi42-26
+def: "KASP marker for Pi42-26 at 6,765,250 bp" []
+is_a: LSU_02:0000036
+
+[Term]
+id: LSU_02:0000038
+name: Pi42-26_snp_geno
+relationship: method_of LSU_02:0000037
+
+[Term]
+id: LSU_02:0000038/0
+name: CC
+synonym: "0" EXACT []
+is_a: LSU_02:0000038
+
+[Term]
+id: LSU_02:0000038/1
+name: CT
+synonym: "1" EXACT []
+synnoym: "TC" EXACT []
+is_a: LSU_02:0000038
+
+[Term]
+id: LSU_02:0000038/2
+name: TT
+synonym: "2" EXACT []
+is_a: LSU_02:0000038
+
+[Term]
+id: LSU_02:0000039
+name: Pi43
+def: "Gene conferring blast resistance on chromsome 11" []
+is_a: LSU_02:0000002
+
+[Term]
+id: LSU_02:0000040
+name: Pi43-14
+def: "Mutation in Pi43 at 27,820,910 bp" []
+is_a: LSU_02:0000039
+
+[Term]
+id: LSU_02:0000041
+name: Pi43-14_KASP
+def: "KASP marker for Pi43-14" []
+relationship: method_of LSU_02:0000040
+
+[Term]
+id: LSU_02:0000042
+name: Pi43-14_snp_geno
+relationship: scale_of LSU_02:0000041
+
+[Term]
+id: LSU_02:0000042/0
+name: GG
+synonym: "0" EXACT []
+is_a: LSU_02:0000042
+
+[Term]
+id: LSU_02:0000042/1
+name: GA
+synonym: "1" EXACT []
+synonym: "AG" EXACT []
+is_a: LSU_02:0000042
+
+[Term]
+id: LSU_02:0000042/2
+name: AA
+synonym: "2" EXACT []
+is_a: LSU_02:0000042
+
+[Term]
+id: LSU_02:0000043
+name: Pi43-24
+def: "Mutation in Pi43 at 27,823,722 bp" []
+is_a: LSU_02:0000039
+
+[Term]
+id: LSU_02:0000044
+name: Pi43-24_KASP
+def: "KASP marker for Pi43-24" []
+relationship: method_of LSU_02:0000043
+
+[Term]
+id: LSU_02:0000045
+name: Pi43-24_snp_geno
+relationship: scale_of LSU_02:0000044
+
+[Term]
+id: LSU_02:0000045/0
+name: GG
+synonym: "0" EXACT []
+is_a: LSU_02:0000045
+
+[Term]
+id: LSU_02:0000045/1
+name: GA
+synonym: "AG" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000045
+
+[Term]
+id: LSU_02:0000045/2
+name: AA
+synonym: "2" EXACT []
+is_a: LSU_02:0000045
+
+[Term]
+id: LSU_02:0000046
+name: Pi43-30
+def: "Mutation in Pi43 at 27,647,679 bp" []
+is_a: LSU_02:0000039
+
+[Term]
+id: LSU_02:0000047
+name: Pi43-30_KASP
+def: "KASP marker for Pi43-30" []
+relationship: method_of LSU_02:0000046
+
+[Term]
+id: LSU_02:0000048
+name: Pi43-30_snp_geno
+def: "KASP marker for Pi43-30" []
+relationship: scale_of LSU_02:0000047
+
+[Term]
+id: LSU_02:0000048/0
+name: CC
+synonym: "0" EXACT []
+is_a: LSU_02:0000048
+
+[Term]
+id: LSU_02:0000048/1
+name: CT
+synonym: "1"  EXACT []
+synonym: "TC"  EXACT []
+is_a: LSU_02:0000048
+
+[Term]
+id: LSU_02:0000048/2
+name: TT
+synonym: "2" EXACT []
+is_a: LSU_02:0000048
+
+[Term]
+id: LSU_02:0000049
+name: Pi43-31
+def: "Mutation in Pi43 at 27,794,949 bp" []
+is_a: LSU_02:0000039
+
+
+[Term]
+id: LSU_02:0000050
+name: Pi43-31_KASP
+def: "KASP marker for Pi43-31" []
+relationship: method_of LSU_02:0000049
+
+[Term]
+id: LSU_02:0000051
+name: Pi43-31_snp_geno
+relationship: scale_of LSU_02:0000050
+
+[Term]
+id: LSU_02:0000051/0
+name: GG
+synonym: "0" EXACT []
+is_a: LSU_02:0000051
+
+[Term]
+id: LSU_02:0000051/1
+name: GA
+synonym: "1" EXACT []
+synonym: "AG" EXACT []
+is_a: LSU_02:0000051
+
+[Term]
+id: LSU_02:0000051/2
+name: AA
+synonym: "2" EXACT []
+is_a: LSU_02:0000051
+
+[Term]
+id: LSU_02:0000052
+name: Pi9
+def: "Gene conferring blast resistance on chromsome 6" []
+is_a: LSU_02:0000002
+
+[Term]
+id: LSU_02:0000053
+name: Pi9-2
+def: "Mutation in Pi9 at 10,389,610 bp" []
+is_a: LSU_02:0000052
+
+[Term]
+id: LSU_02:0000054
+name: Pi9-2_KASP
+def: "KASP marker for Pi9-2; Primary" []
+relationship: method_of LSU_02:0000053
+
+[Term]
+id: LSU_02:0000055
+name: Pi9-2_snp_geno
+relationship: scale_of LSU_02:0000054
+
+[Term]
+id: LSU_02:0000055/0
+name:GG
+synonym: "0" EXACT []
+is_a: LSU_02:0000055
+
+[Term]
+id: LSU_02:0000055/1
+name:GC
+synonym: "1" EXACT []
+synonym: "CG" EXACT []
+is_a: LSU_02:0000055
+
+[Term]
+id: LSU_02:0000055/2
+name:CC
+synonym: "2" EXACT []
+is_a: LSU_02:0000055
+
+[Term]
+id: LSU_02:0000056
+name: Pi9-1
+def: "Mutation in Pi9 10,384,554 bp" []
+is_a: LSU_02:0000052
+
+[Term]
+id: LSU_02:0000057
+name: Pi9-1_KASP
+def: "KASP marker for Pi9-1; Backup" []
+relationship: method_of LSU_02:0000056
+
+[Term]
+id: LSU_02:0000058
+name: Pi9-1_snp_geno
+relationship: scale_of LSU_02:0000057
+
+[Term]
+id: LSU_02:0000058/0
+name: CC
+synonym: "0" EXACT []
+synonym: "Sus" EXACT []
+is_a: LSU_02:0000058
+
+[Term]
+id: LSU_02:0000058/1
+name: CA
+synonym: "1" EXACT []
+synonym: "AC" EXACT []
+is_a: LSU_02:0000058
+
+[Term]
+id: LSU_02:0000058/2
+name: AA
+synonym: "2" EXACT []
+synonym: "Res" EXACT []
+is_a: LSU_02:0000058
+
+[Term]
+id: LSU_02:0000059
+name: Pi9-3
+def: "Mutation in Pi9 10,389,084 bp" []
+is_a: LSU_02:0000052
+
+[Term]
+id: LSU_02:0000060
+name: Pi9-3_KASP
+def: "KASP marker for Pi9-3; Backup" []
+relationship: method_of LSU_02:0000059
+
+[Term]
+id: LSU_02:0000061
+name: Pi9-3_snp_geno
+relationship: scale_of LSU_02:0000060
+
+[Term]
+id: LSU_02:0000061/0
+name: CC
+synonym: "0" EXACT []
+synonym: "Sus" EXACT []
+is_a: LSU_02:0000061
+
+[Term]
+id: LSU_02:0000061/1
+name: CT
+synonym: "1" EXACT []
+synonym: "TC" EXACT []
+is_a: LSU_02:0000061
+
+[Term]
+id: LSU_02:0000061/2
+name: TT
+synonym: "2" EXACT []
+synonym: "Res" EXACT []
+is_a: LSU_02:0000061
+
+[Term]
+id: LSU_02:0000062
+name: Pib
+def: "Gene conferring blast resistance on chromsome 2" []
+is_a: LSU_02:0000002
+
+[Term]
+id: LSU_02:0000063
+name: Pib-3
+def: "Mutation in Pib gene at 35,101,468 bp" []
+is_a: LSU_02:0000062
+
+[Term]
+id: LSU_02:0000064
+name: Pib-3_KASP
+def: "KASP marker for Pib-3; Primary" []
+relationship: method_of LSU_02:0000063
+
+[Term]
+id: LSU_02:0000065
+name: Pib-3_snp_geno
+relationship: scale_of LSU_02:0000064
+
+[Term]
+id: LSU_02:0000065/0
+name: GG
+synonym: "0" EXACT []
+synonym: "Sus" EXACT []
+is_a: LSU_02:0000065
+
+[Term]
+id: LSU_02:0000065/1
+name: GA
+synonym: "1" EXACT []
+synonym: "AG" EXACT []
+is_a: LSU_02:0000065
+
+[Term]
+id: LSU_02:0000065/2
+name: AA
+synonym: "2" EXACT []
+synonym: "Res" EXACT []
+is_a: LSU_02:0000065
+
+[Term]
+id: LSU_02:0000066
+name: Pib-1
+def: "Mutation in Pib gene at 35,100,767 bp" []
+is_a: LSU_02:0000062
+
+[Term]
+id: LSU_02:0000067
+name: Pib-1_KASP
+def: "KASP marker for Pib; Backup" []
+relationship: method_of LSU_02:0000066
+
+[Term]
+id: LSU_02:0000068
+name: Pib-1_snp_geno
+relationship: scale_of LSU_02:0000067
+
+[Term]
+id: LSU_02:0000068/0
+name: AA
+synonym: "Sus" EXACT []
+synonym: "0" EXACT []
+is_a: LSU_02:0000068
+
+[Term]
+id: LSU_02:0000068/1
+name: AG
+synonym: "GA" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000068
+
+[Term]
+id: LSU_02:0000068/2
+name: GG
+synonym: "Res" EXACT []
+synonym: "2" EXACT []
+is_a: LSU_02:0000068
+
+[Term]
+id: LSU_02:0000069
+name: Pib-2
+def: "Mutation in Pib gene at 35,101,468 bp" []
+is_a: LSU_02:0000062
+
+[Term]
+id: LSU_02:0000070
+name: Pib-2_KASP
+def: "KASP marker for Pib-2; Backup" []
+relationship: method_of LSU_02:0000069
+
+[Term]
+id: LSU_02:0000071
+name: Pib-2_snp_geno
+relationship: scale_of LSU_02:0000070
+
+[Term]
+id: LSU_02:0000071/0
+name: CC
+synonym: "0" EXACT []
+synonym: "Sus" EXACT []
+is_a: LSU_02:0000071
+
+[Term]
+id: LSU_02:0000071/1
+name: CT
+synonym: "TC" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000071
+
+[Term]
+id: LSU_02:0000071/2
+name: TT
+synonym: "Res" EXACT []
+synonym: "2" EXACT []
+is_a: LSU_02:0000071
+
+[Term]
+id: LSU_02:0000072
+name: Pita
+def: "Gene conferring blast resistance on chromsome 12" []
+is_a: LSU_02:0000002
+
+[Term]
+id: LSU_02:0000073
+name: Pita1
+def: "Mutation in Pita at 10,606,779 bp" []
+is_a: LSU_02:0000072
+
+[Term]
+id: LSU_02:0000074
+name: Pita1_KASP
+def: "Kasp marker for Pita1; Backup" []
+relationship: method_of LSU_02:0000073
+
+[Term]
+id: LSU_02:0000075
+name: Pita1_snp_geno
+relationship: scale_of LSU_02:0000074
+
+[Term]
+id: LSU_02:0000075/0
+name: GG
+synonym: "Sus" EXACT []
+synonym: "0" EXACT []
+is_a: LSU_02:0000075
+
+[Term]
+id: LSU_02:0000075/1
+name: AG
+synonym: "GA" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000075
+
+[Term]
+id: LSU_02:0000075/2
+name: AA
+synonym: "Res" EXACT []
+synonym: "2" EXACT []
+is_a: LSU_02:0000075
+
+[Term]
+id: LSU_02:0000076
+name: Pita2
+def: "Mutation in Pita at 10,630,229 bp" []
+is_a: LSU_02:0000072
+
+[Term]
+id: LSU_02:0000077
+name: Pita2_KASP
+def: "KASP marker for Pita2; Primary" []
+relationship: method_of LSU_02:0000076
+
+[Term]
+id: LSU_02:0000078
+name: Pita2_snp_geno
+relationship: scale_of LSU_02:0000077
+
+[Term]
+id: LSU_02:0000078/0
+name: CC
+synonym: "0" EXACT []
+synonym: "Sus" EXACT []
+is_a: LSU_02:0000078
+
+[Term]
+id: LSU_02:0000078/1
+name: TC
+synonym: "1" EXACT []
+synonym: "CT" EXACT []
+is_a: LSU_02:0000078
+
+[Term]
+id: LSU_02:0000078/2
+name: TT
+synonym: "2" EXACT []
+synonym: "Res" EXACT []
+is_a: LSU_02:0000078
+
+[Term]
+id: LSU_02:0000079
+name: Piz
+def: "Gene conferring blast resistance on chromsome 6" []
+is_a: LSU_02:0000002
+
+[Term]
+id: LSU_02:0000080
+name: Pizt-17
+def: "Mutation in Piz at 10,363,327 bp" []
+is_a: LSU_02:0000079
+
+[Term]
+id: LSU_02:0000081
+name: Pizt-17_KASP
+def: "KASP marker for Pizt-17; Primary" []
+relationship: method_of LSU_02:0000080
+
+[Term]
+id: LSU_02:0000082
+name: Pizt-17_snp_geno
+relationship: scale_of LSU_02:0000081
+
+[Term]
+id: LSU_02:0000082/0
+name: TT
+synonym: "0" EXACT []
+synonym: "Sus" EXACT []
+is_a: LSU_02:0000082
+
+[Term]
+id: LSU_02:0000082/1
+name: TG
+synonym: "1" EXACT []
+synonym: "GT" EXACT []
+is_a: LSU_02:0000082
+
+[Term]
+id: LSU_02:0000082/2
+name: GG
+synonym: "2" EXACT []
+synonym: "Res" EXACT []
+is_a: LSU_02:0000082
+
+[Term]
+id: LSU_02:0000083
+name: Pizt-2
+def: "Mutation in Piz at 10,364,318 bp" []
+is_a: LSU_02:0000079
+
+[Term]
+id: LSU_02:0000084
+name: Pizt-2_KASP
+def: "KASP marker for Pizt-2; Backup" []
+relationship: method_of LSU_02:0000083
+
+[Term]
+id: LSU_02:0000085
+name: Pizt-2_snp_geno
+relationship: scale_of LSU_02:0000084
+
+[Term]
+id: LSU_02:0000085/0
+name: CC
+synonym: "0" EXACT []
+synonym: "Sus" EXACT []
+is_a: LSU_02:0000085
+
+[Term]
+id: LSU_02:0000085/1
+name: CT
+synonym: "1" EXACT []
+synonym: "TC" EXACT []
+is_a: LSU_02:0000085
+
+[Term]
+id: LSU_02:0000085/2
+name: TT
+synonym: "2" EXACT []
+synonym: "Res" EXACT []
+is_a: LSU_02:0000085
+
+[Term]
+id: LSU_02:0000086
+name: Pizt-22
+def: "Mutation in Piz at 10,352,083 bp" []
+is_a: LSU_02:0000079
+
+[Term]
+id: LSU_02:0000087
+name: Pizt-22_KASP
+def: "KASP marker for Pizt-22; Backup" []
+relationship: method_of LSU_02:0000086
+
+[Term]
+id: LSU_02:0000088
+name: Pizt-22_snp_geno
+relationship: scale_of LSU_02:0000087
+
+[Term]
+id: LSU_02:0000088/0
+name: CC
+synonym: "Sus" EXACT []
+synonym: "0" EXACT []
+is_a: LSU_02:0000088
+
+[Term]
+id: LSU_02:0000088/1
+name: TC
+synonym: "CT" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000088
+
+[Term]
+id: LSU_02:0000088/2
+name: TT
+synonym: "2" EXACT []
+synonym: "Res" EXACT []
+is_a: LSU_02:0000088
+
+[Term]
+id: LSU_02:0000089
+name: Cercospora
+def: "Marker related to cercospora resistance" []
+is_a: LSU_02:Disease
+
+[Term]
+id: LSU_02:0000090
+name: CRSP2.1
+def: "Gene for cercospora resistance" []
+is_a: LSU_02:0000089
+
+[Term]
+id: LSU_02:0000091
+name: CRSP2
+def: "Mutation in CRSP2.1 at 24,386,096 bp" []
+is_a: LSU_02:0000090
+
+[Term]
+id: LSU_02:0000092
+name: CRSP2_KASP
+def: "KASP marker for CRSP2; Primary." []
+relationship: method_of LSU_02:0000091
+
+[Term]
+id: LSU_02:0000093
+name: CRSP2_snp_geno
+relationship: scale_of LSU_02:0000092
+
+[Term]
+id: LSU_02:0000093/0
+name: TT
+synonym: "Sus" EXACT []
+synonym: "0" EXACT []
+is_a: LSU_02:0000093
+
+[Term]
+id: LSU_02:0000093/1
+name: CT
+synonym: "TC" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000093
+
+[Term]
+id: LSU_02:0000093/2
+name: CC
+synonym: "Res" EXACT []
+synonym: "2" EXACT []
+is_a: LSU_02:0000093
+
+[Term]
+id: LSU_02:0000094
+name: Amylose
+def: "Marker related to amylose content" []
+is_a: LSU_02:Grain
+
+[Term]
+id: LSU_02:0000095
+name: Waxy
+def: "A gene controlling waxy content on chromosome 6" []
+is_a: LSU_02:0000094
+
+[Term]
+id: LSU_02:0000096
+name: WaxyExon_1
+def: "A mutation in Waxy at 1,765,761 bp" []
+is_a: LSU_02:0000095
+
+[Term]
+id: LSU_02:0000097
+name: WaxyExon_1_KASP
+def: "KASP makr for WaxyExon_1; Primary" []
+relationship: method_of LSU_02:0000096
+
+[Term]
+id: LSU_02:0000098
+name: WaxyExon_1_snp_geno
+relationship: scale_of LSU_02:0000097
+
+[Term]
+id: LSU_02:0000098/0
+name: AA
+synonym: "0" EXACT []
+synonym: "Low" EXACT []
+relationship: scale_of LSU_02:0000098
+
+[Term]
+id: LSU_02:0000098/1
+name: AC
+synonym: "1" EXACT []
+synonym: "CA" EXACT []
+relationship: scale_of LSU_02:0000098
+
+[Term]
+id: LSU_02:0000098/2
+name: CC
+synonym: "2" EXACT []
+synonym: "Std" EXACT []
+relationship: scale_of LSU_02:0000098
+
+[Term]
+id: LSU_02:0000099
+name: Wx-1
+def: "A mutation in Waxy at 1,731,808 bp" []
+is_a: LSU_02:0000095
+
+[Term]
+id: LSU_02:0000100
+name: Wx-1_KASP
+def: "KASP marker for Wx-1; Backup" []
+relationship: method_of LSU_02:0000099
+
+[Term]
+id: LSU_02:0000101
+name: Wx-1_snp_geno
+relationship: scale_of LSU_02:0000100
+
+[Term]
+id: LSU_02:0000101/0
+name: GG
+synonym: "Low" EXACT []
+synonym: "0" EXACT []
+is_a: LSU_02:0000101
+
+[Term]
+id: LSU_02:0000101/1
+name: CG
+synonym: "1" EXACT []
+synonym: "GC" EXACT []
+is_a: LSU_02:0000101
+
+[Term]
+id: LSU_02:0000101/2
+name: CC
+synonym: "2" EXACT []
+synonym: "Std" EXACT []
+is_a: LSU_02:0000101
+
+[Term]
+id: LSU_02:0000102
+name: WaxyExon_10
+def: "A mutation in Waxy at 1,768,998 bp" []
+is_a: LSU_02:0000095
+
+[Term]
+id: LSU_02:0000103
+name: WaxyExon_10_KASP
+def: "KASP marker for WaxyExon_10; Primary" []
+relationship: method_of LSU_02:0000102
+
+[Term]
+id: LSU_02:0000104
+name: WaxyExon_10_snp_geno
+relationship: scale_of LSU_02:0000103
+
+[Term]
+id: LSU_02:0000104/0
+name: CC
+synonym: "0" EXACT []
+synonym: "Std" EXACT []
+is_a: LSU_02:0000104
+
+[Term]
+id: LSU_02:0000104/1
+name: CT
+synonym: "TC" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000104
+
+[Term]
+id: LSU_02:0000104/2
+name: TT
+synonym: "2" EXACT []
+synonym: "Hgh" EXACT []
+is_a: LSU_02:0000104
+
+[Term]
+id: LSU_02:0000106
+name: Wx-6
+def: "A mutation in Waxy at 1,769,729 bp" []
+is_a: LSU_02:0000095
+
+[Term]
+id: LSU_02:0000107
+name: Wx-6_KASP
+def: "KASP marker for Wx-6; Backup" []
+relationship: method_of LSU_02:0000106
+
+[Term]
+id: LSU_02:0000108
+name: Wx-6_snp_geno
+relationship: scale_of LSU_02:0000107
+
+[Term]
+id: LSU_02:0000108/0
+name: CC
+synonym: "0" EXACT []
+synonym: "Std" EXACT []
+relationship: scale_of LSU_02:0000108
+
+[Term]
+id: LSU_02:0000108/1
+name: CT
+synonym: "1" EXACT []
+synonym: "TC" EXACT []
+relationship: scale_of LSU_02:0000108
+
+[Term]
+id: LSU_02:0000108/2
+name: TT
+synonym: "2" EXACT []
+synonym: "Hgh" EXACT []
+relationship: scale_of LSU_02:0000108
+
+[Term]
+id: LSU_02:0000109
+name: Wx-3
+def: "A mutation in Waxy at 1,759,451 bp" []
+is_a: LSU_02:0000095
+
+[Term]
+id: LSU_02:0000110
+name: Wx-3_KASP
+def: "A KASP marker for Wx-3; Primary" []
+relationship: method_of LSU_02:0000109
+
+[Term]
+id: LSU_02:0000111
+name: Wx-3_snp_geno
+relationship: scale_of LSU_02:0000110
+
+[Term]
+id: LSU_02:0000111/0
+name: TT
+synonym: "0" EXACT []
+synonym: "Std" EXACT []
+is_a: LSU_02:0000111
+
+[Term]
+id: LSU_02:0000111/1
+name: CT
+synonym: "1" EXACT []
+synonym: "TC" EXACT []
+is_a: LSU_02:0000111
+
+[Term]
+id: LSU_02:0000111/2
+name: CC
+synonym: "2"  EXACT []
+synonym: "IntH"  EXACT []
+is_a: LSU_02:0000111
+
+[Term]
+id: LSU_02:0000112
+name: WaxyExon_6
+def: "A mutation in Waxy at 1,768,006 bp" []
+is_a: LSU_02:0000095
+
+[Term]
+id: LSU_02:0000113
+name: WaxyExon_6_KASP
+def: "KASP marker for WaxyExon_6; Backup" []
+relationship: method_of LSU_02:0000112
+
+[Term]
+id: LSU_02:0000114
+name: WaxyExon_6_snp_geno
+relationship: scale_of LSU_02:0000113
+
+[Term]
+id: LSU_02:0000114/0
+name: AA
+synonym: "0" EXACT []
+synonym: "Std" EXACT []
+is_a: LSU_02:0000114
+
+[Term]
+id: LSU_02:0000114/1
+name: AC
+synonym: "CA" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000114
+
+[Term]
+id: LSU_02:0000114/2
+name: CC
+synonym: "2" EXACT []
+synonym: "IntH" EXACT []
+is_a: LSU_02:0000114
+
+[Term]
+id: LSU_02:0000115
+name: Aroma
+def: "Markers related to grain aroma" []
+is_a: LSU_02:Grain
+
+[Term]
+id: LSU_02:0000116
+name: BADH2
+def: "A gene related to grain aroma on chromosome 8" []
+is_a: LSU_02:0000115
+
+[Term]
+id: LSU_02:0000117
+name: BADH2_1129
+def: "A mutation in BADH2 at 20,374,951 bp" []
+is_a: LSU_02:0000116
+
+[Term]
+id: LSU_02:0000118
+name: BADH2_1129_KASP
+def: "A KASP marker for BADH2_1129; Backup" []
+relationship: method_of LSU_02:0000117
+
+[Term]
+id: LSU_02:0000119
+name: BADH2_1129_snp_geno
+relationship: scale_of LSU_02:0000118
+
+[Term]
+id: LSU_02:0000119/0
+name: CC
+synonym: "Std" EXACT []
+synonym: "0" EXACT []
+is_a: LSU_02:0000119
+
+[Term]
+id: LSU_02:0000119/1
+name: CT
+synonym: "TC" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000119
+
+[Term]
+id: LSU_02:0000119/2
+name: TT
+synonym: "2" EXACT []
+synonym: "Aro" EXACT []
+is_a: LSU_02:0000119
+
+[Term]
+id: LSU_02:0000120
+name: Gelatinization Temperature
+def: "Marker related to gel temp" []
+is_a: LSU_02:Grain
+
+[Term]
+id: LSU_02:0000121
+name: ALK
+def: "Gene related to gel temp on chromosome 6" []
+is_a: LSU_02:0000120
+
+[Term]
+id: LSU_02:0000121
+name: ALK_SNP
+def: "Mutation in Alk at 6,752,887 bp" []
+is_a: LSU_02:0000120
+
+[Term]
+id: LSU_02:0000122
+name: ALK_SNP_KASP
+def: "KASP marker for ALK_SNP; Primary" []
+relationship: method_of LSU_02:0000121
+
+[Term]
+id: LSU_02:0000123
+name: ALK_SNP_snp_geno
+relationship: scale_of LSU_02:0000122
+
+[Term]
+id: LSU_02:0000123/0
+name: IGT:IGT
+synonym: "0" EXACT []
+is_a: LSU_02:0000123
+
+[Term]
+id: LSU_02:0000123/1
+name: IGT:LGT
+synonym: "1" EXACT []
+is_a: LSU_02:0000123
+
+[Term]
+id: LSU_02:0000123/2
+name: LGT:LGT
+synonym: "2" EXACT []
+is_a: LSU_02:0000123
+
+[Term]
+id: LSU_02:0000124
+name: Grain Color
+def: "Marker related to grain color" []
+is_a: LSU_02:Grain
+
+[Term]
+id: LSU_02:0000125
+name: RC
+def: "Gene related to grain color" []
+is_a: LSU_02:0000124
+
+[Term]
+id: LSU_02:0000126
+name: RC-1
+def: "Mutation in RC" []
+is_a: LSU_02:0000125
+
+[Term]
+id: LSU_02:0000127
+name: RC-1_KASP
+def: "KASP marker for RC-1; Primary" []
+relationship: method_of LSU_02:0000126
+
+[Term]
+id: LSU_02:0000128
+name: RC-1_snp_geno
+relationship: scale_of LSU_02:0000127
+
+[Term]
+id: LSU_02:0000128/0
+name: AA
+synonym: "0" EXACT []
+synonym: "WHT" EXACT []
+relationship: scale_of LSU_02:0000128
+
+[Term]
+id: LSU_02:0000128/1
+name: AG
+synonym: "1" EXACT []
+synonym: "GA" EXACT []
+relationship: scale_of LSU_02:0000128
+
+[Term]
+id: LSU_02:0000128/2
+name: GG
+synonym: "2" EXACT []
+synonym: "RED" EXACT []
+relationship: scale_of LSU_02:0000128
+
+[Term]
+id: LSU_02:0000129
+name: Grain Size
+def: "Marker related to grain size" []
+is_a: LSU_02:Grain
+
+[Term]
+id: LSU_02:0000130
+name: Chr7-GS
+def: "Gene for gain size on chromosome 7" []
+is_a: LSU_02:0000129
+
+[Term]
+id: LSU_02:0000131
+name: qGL7.1
+def: "Mutation in Chr7-GS at 24,845,026 bp" []
+is_a: LSU_02:0000130
+
+[Term]
+id: LSU_02:0000132
+name: qGL7.1_KASP
+def: "KASP marker for grain size; Primary" []
+relationship: method_of LSU_02:0000131
+
+[Term]
+id: LSU_02:0000133
+name: qGL7.1_snp_geno
+relationship: scale_of LSU_02:0000132
+
+[Term]
+id: LSU_02:0000133/0
+name: CC
+synonym: "0" EXACT []
+synonym: "Med" EXACT []
+is_a: LSU_02:0000133
+
+[Term]
+id: LSU_02:0000133/1
+name: CT
+synonym: "1" EXACT []
+synonym: "TC" EXACT []
+is_a: LSU_02:0000133
+
+[Term]
+id: LSU_02:0000133/2
+name: TT
+synonym: "2" EXACT []
+synonym: "Lng" EXACT []
+is_a: LSU_02:0000133
+
+[Term]
+id: LSU_02:0000134
+name: GS3
+def: "Gene for grain size on chromosome 3" []
+is_a: LSU_02:0000129
+
+[Term]
+id: LSU_02:0000135
+name: GS3-1
+def: "Mutation in GS3 at 16,733,441 bp" []
+is_a: LSU_02:0000134
+
+[Term]
+id: LSU_02:0000136
+name: GS3-1_KASP
+def: "KASP marker for GS3-1; Primary" []
+relationship: method_of LSU_02:0000135
+
+[Term]
+id: LSU_02:0000137
+name: GS3-1_snp_geno
+relationship: scale_of LSU_02:0000136
+
+[Term]
+id: LSU_02:0000137/0
+name: GG
+synonym: "0" EXACT []
+synonym: "Med" EXACT []
+is_a: LSU_02:0000137
+
+[Term]
+id: LSU_02:0000137/1
+name: GT
+synonym: "1" EXACT []
+synonym: "TG" EXACT []
+is_a: LSU_02:0000137
+
+[Term]
+id: LSU_02:0000137/2
+name: TT
+synonym: "2" EXACT []
+synonym: "Lng" EXACT []
+is_a: LSU_02:0000137
+
+[Term]
+id: LSU_02:0000138
+name: Clearfield Tolerance
+def: "Marker related to Clearfield herbicide tolerance" []
+is_a: LSU_02:Herbicide
+
+[Term]
+id: LSU_02:0000139
+name: Clearfield
+def: "Gene related to Clearfield herbicide tolerance" []
+is_a: LSU_02:0000138
+
+[Term]
+id: LSU_02:0000140
+name: CL
+def: "Mutation in Clearfield gene at ~18,237,000 bp" []
+is_a: LSU_02:0000139
+
+[Term]
+id: LSU_02:0000141
+name: CL_KASP
+def: "KASP maker for CL; Primary" []
+relationship: method_of LSU_02:0000140
+
+[Term]
+id: LSU_02:0000142
+name: CL_snp_geno
+relationship: scale_of LSU_02:0000141
+
+[Term]
+id: LSU_02:0000142/0
+name: WT:WT
+synonym: "0" EXACT []
+is_a: LSU_02:0000142
+
+[Term]
+id: LSU_02:0000142/1
+name: CL:WT
+synonym: "1" EXACT []
+synonym: "WT:CL" EXACT []
+is_a: LSU_02:0000142
+
+[Term]
+id: LSU_02:0000142/2
+name: CL:CL
+synonym: "2" EXACT []
+is_a: LSU_02:0000142
+
+[Term]
+id: LSU_02:0000143
+name: Provisia Tolerance
+def: "Marker related to Provisia herbicide tolerance" []
+is_a: LSU_02:Herbicide
+
+[Term]
+id: LSU_02:0000144
+name: Provisia
+def: "A gene conferring Provisia herbicide tolerance on chromosome 5" []
+is_a: LSU_02:0000143
+
+[Term]
+id: LSU_02:0000145
+name: PV
+def: "A mutation in Provisia at ~13,066,388 bp" []
+is_a: LSU_02:0000144
+
+[Term]
+id: LSU_02:0000146
+name: PV_KASP
+def: "KASP marker for PV; Primary" []
+relationship: method_of LSU_02:0000145
+
+[Term]
+id: LSU_02:0000147
+name: PV_snp_geno
+relationship: scale_of LSU_02:0000146
+
+[Term]
+id: LSU_02:0000147/0
+name: AA
+synonym: "0" EXACT []
+synonym: "WT" EXACT []
+is_a: LSU_02:0000147
+
+[Term]
+id: LSU_02:0000147/1
+name: AT
+synonym: "1" EXACT []
+synonym: "TA" EXACT []
+is_a: LSU_02:0000147
+
+[Term]
+id: LSU_02:0000147/2
+name: TT
+synonym: "2" EXACT []
+synonym: "PV" EXACT []
+is_a: LSU_02:0000147
+
+[Term]
+id: LSU_02:0000148
+name: Restoration Trait Marker
+def: "Marker related to sterility restoration in a hybrid production system" []
+is_a: LSU_02:Sterility
+
+[Term]
+id: LSU_02:0000149
+name: RF3
+def: "RF restoration gene on chromosome 1" []
+is_a: LSU_02:0000148
+
+[Term]
+id: LSU_02:0000150
+name: RF3-1
+def: "Mutation in RF3 at 4,891,618 bp" []
+is_a: LSU_02:0000149
+
+[Term]
+id: LSU_02:0000151
+name: RF3-1_KASP
+def: "KASP marker for RF3-1; Primary" []
+relationship: method_of LSU_02:0000150
+
+[Term]
+id: LSU_02:0000152
+name: RF3-1_snp_geno
+relationship: scale_of LSU_02:0000151
+
+[Term]
+id: LSU_02:0000152/0
+name: AA
+synonym: "0" EXACT []
+synonym: "MNT" EXACT []
+is_a: LSU_02:0000152
+
+[Term]
+id: LSU_02:0000152/1
+name: AG
+synonym: "1" EXACT []
+synonym: "GA" EXACT []
+is_a: LSU_02:0000152
+
+[Term]
+id: LSU_02:0000152/2
+name: GG
+synonym: "2" EXACT []
+synonym: "RF3" EXACT []
+is_a: LSU_02:0000152
+
+[Term]
+id: LSU_02:0000153
+name: RF4
+def: "RF restoration gene on chromosome 10" []
+is_a: LSU_02:0000148
+
+[Term]
+id: LSU_02:0000154
+name: RF4-24
+def: "Mutation in RF4 at 18,952,213 bp" []
+is_a: LSU_02:0000153
+
+[Term]
+id: LSU_02:0000155
+name: RF4-24_KASP
+def: "KASP marker for RF4-24; Backup" []
+relationship: method_of LSU_02:0000154
+
+[Term]
+id: LSU_02:0000156
+name: RF4-24_snp_geno
+relationship: scale_of LSU_02:0000155
+
+[Term]
+id: LSU_02:0000156/0
+name: AA
+synonym: "0" EXACT []
+is_a: LSU_02:0000156
+
+[Term]
+id: LSU_02:0000156/1
+name: AT
+synonym: "TA" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000156
+
+[Term]
+id: LSU_02:0000156/2
+name: TT
+synonym: "2" EXACT []
+is_a: LSU_02:0000156
+
+[Term]
+id: LSU_02:0000157
+name: RF4-31
+def: "Mutation in RF4" []
+is_a: LSU_02:0000153
+
+[Term]
+id: LSU_02:0000158
+name: RF4-31_KASP
+def: "KASP marker for RF4-31; Primary" []
+relationship: method_of LSU_02:0000157
+
+[Term]
+id: LSU_02:0000159
+name: RF4-31_snp_geno
+relationship: scale_of LSU_02:0000158
+
+[Term]
+id: LSU_02:0000159/0
+name: AA
+synonym: "0" EXACT []
+is_a: LSU_02:0000159
+
+[Term]
+id: LSU_02:0000159/1
+name: AC
+synonym: "CA" EXACT []
+synonym: "1" EXACT []
+is_a: LSU_02:0000159
+
+[Term]
+id: LSU_02:0000159/2
+name: CC
+synonym: "2" EXACT []
+is_a: LSU_02:0000159
+
+[Term]
+id: LSU_02:0000160
+name: LSU_1192
+relationship: variable_of LSU_02:0000012
+relationship: variable_of LSU_02:0000013
+relationship: variable_of LSU_02:0000014
+
+[Term]
+id: LSU_02:0000161
+name: LSU_961
+relationship: variable_of LSU_02:0000015
+relationship: variable_of LSU_02:0000016
+relationship: variable_of LSU_02:0000017
+
+[Term]
+id: LSU_02:0000162
+name: LSU_946
+relationship: variable_of LSU_02:0000018
+relationship: variable_of LSU_02:0000019
+relationship: variable_of LSU_02:0000020
+
+[Term]
+id: LSU_02:0000163
+name: LSU_527
+relationship: variable_of LSU_02:0000023
+relationship: variable_of LSU_02:0000024
+relationship: variable_of LSU_02:0000025
+
+[Term]
+id: LSU_02:0000164
+name: LSU_698
+relationship: variable_of LSU_02:0000027
+relationship: variable_of LSU_02:0000028
+relationship: variable_of LSU_02:0000029
+
+[Term]
+id: LSU_02:0000165
+name: LSU_652
+relationship: variable_of LSU_02:0000030
+relationship: variable_of LSU_02:0000031
+relationship: variable_of LSU_02:0000032
+
+[Term]
+id: LSU_02:0000166
+name: LSU_663
+relationship: variable_of LSU_02:0000033
+relationship: variable_of LSU_02:0000034
+relationship: variable_of LSU_02:0000035
+
+[Term]
+id: LSU_02:0000167
+name: LSU_675
+relationship: variable_of LSU_02:0000036
+relationship: variable_of LSU_02:0000037
+relationship: variable_of LSU_02:0000038
+
+[Term]
+id: LSU_02:0000168
+name: LSU_630
+relationship: variable_of LSU_02:0000040
+relationship: variable_of LSU_02:0000041
+relationship: variable_of LSU_02:0000042
+
+[Term]
+id: LSU_02:0000169
+name: LSU_631
+relationship: variable_of LSU_02:0000043
+relationship: variable_of LSU_02:0000044
+relationship: variable_of LSU_02:0000045
+
+[Term]
+id: LSU_02:0000170
+name: LSU_678
+relationship: variable_of LSU_02:0000046
+relationship: variable_of LSU_02:0000047
+relationship: variable_of LSU_02:0000048 
+
+[Term]
+id: LSU_02:0000171
+name: LSU_690
+relationship: variable_of LSU_02:0000049
+relationship: variable_of LSU_02:0000050
+relationship: variable_of LSU_02:0000051
+
+[Term]
+id: LSU_02:0000172
+name: LSU_1125
+relationship: variable_of LSU_02:0000053
+relationship: variable_of LSU_02:0000054
+relationship: variable_of LSU_02:0000055 
+
+[Term]
+id: LSU_02:0000173
+name: LSU_1124
+relationship: variable_of LSU_02:0000056
+relationship: variable_of LSU_02:0000057
+relationship: variable_of LSU_02:0000058 
+
+[Term]
+id: LSU_02:0000174
+name: LSU_1126
+relationship: variable_of LSU_02:0000059
+relationship: variable_of LSU_02:0000060
+relationship: variable_of LSU_02:0000061
+
+[Term]
+id: LSU_02:0000175
+name: LSU_716
+relationship: variable_of LSU_02:0000063
+relationship: variable_of LSU_02:0000064
+relationship: variable_of LSU_02:0000065 
+
+[Term]
+id: LSU_02:0000176
+name: LSU_714
+relationship: variable_of LSU_02:0000066
+relationship: variable_of LSU_02:0000067
+relationship: variable_of LSU_02:0000068
+
+[Term]
+id: LSU_02:0000177
+name: LSU_715
+relationship: variable_of LSU_02:0000069
+relationship: variable_of LSU_02:0000070
+relationship: variable_of LSU_02:0000071 
+
+[Term]
+id: LSU_02:0000178 
+name: LSU_1112
+relationship: variable_of LSU_02:0000004
+relationship: variable_of LSU_02:0000005
+relationship: variable_of LSU_02:0000006
+
+[Term]
+id: LSU_02:0000179
+name: LSU_1122
+relationship: variable_of LSU_02:0000007
+relationship: variable_of LSU_02:0000008
+relationship: variable_of LSU_02:0000009
+
+[Term]
+id: LSU_02:0000180
+name: LSU_845
+relationship: variable_of LSU_02:0000073
+relationship: variable_of LSU_02:0000074
+relationship: variable_of LSU_02:0000075 
+
+[Term]
+id: LSU_02:0000181
+name: LSU_597
+relationship: variable_of LSU_02:0000076
+relationship: variable_of LSU_02:0000077
+relationship: variable_of LSU_02:0000078 
+
+[Term]
+id: LSU_02:0000182
+name: LSU_931
+relationship: variable_of LSU_02:0000080
+relationship: variable_of LSU_02:0000081
+relationship: variable_of LSU_02:0000082 
+
+[Term]
+id: LSU_02:0000183
+name: LSU_637
+relationship: variable_of LSU_02:0000083
+relationship: variable_of LSU_02:0000084
+relationship: variable_of LSU_02:0000085 
+
+[Term]
+id: LSU_02:0000184
+name: LSU_936
+relationship: variable_of LSU_02:0000086
+relationship: variable_of LSU_02:0000087
+relationship: variable_of LSU_02:0000088 
+
+[Term]
+id: LSU_02:0000185
+name: LSU_861
+relationship: variable_of LSU_02:0000091
+relationship: variable_of LSU_02:0000092
+relationship: variable_of LSU_02:0000093 
+
+[Term]
+id: LSU_02:0000186
+name: LSU_595
+relationship: variable_of LSU_02:0000096
+relationship: variable_of LSU_02:0000097
+relationship: variable_of LSU_02:0000098 
+
+[Term]
+id: LSU_02:0000187
+name: LSU_982
+relationship: variable_of LSU_02:0000099
+relationship: variable_of LSU_02:0000100
+relationship: variable_of LSU_02:0000101 
+
+[Term]
+id: LSU_02:0000188
+name: LSU_605
+relationship: variable_of LSU_02:0000102
+relationship: variable_of LSU_02:0000103
+relationship: variable_of LSU_02:0000104 
+
+[Term]
+id: LSU_02:0000189
+name: LSU_987
+relationship: variable_of LSU_02:0000106
+relationship: variable_of LSU_02:0000107
+relationship: variable_of LSU_02:0000108  
+
+[Term]
+id: LSU_02:0000190
+name: LSU_984
+relationship: variable_of LSU_02:0000109
+relationship: variable_of LSU_02:0000110
+relationship: variable_of LSU_02:0000111 
+
+[Term]
+id: LSU_02:0000191
+name: LSU_584
+relationship: variable_of LSU_02:0000112
+relationship: variable_of LSU_02:0000113
+relationship: variable_of LSU_02:0000114
+
+[Term]
+id: LSU_02:0000192
+name: LSU_601
+relationship: variable_of LSU_02:0000117
+relationship: variable_of LSU_02:0000118
+relationship: variable_of LSU_02:0000119 
+
+[Term]
+id: LSU_02:0000193
+name: LSU_544
+relationship: variable_of LSU_02:0000121
+relationship: variable_of LSU_02:0000122
+relationship: variable_of LSU_02:0000123 
+
+[Term]
+id: LSU_02:0000194
+name: LSU_926
+relationship: variable_of LSU_02:0000126
+relationship: variable_of LSU_02:0000127
+relationship: variable_of LSU_02:0000128 
+
+
+[Term]
+id: LSU_02:0000195
+name: LSU_323
+relationship: variable_of LSU_02:0000131
+relationship: variable_of LSU_02:0000132
+relationship: variable_of LSU_02:0000133 
+
+[Term]
+id: LSU_02:0000196
+name: LSU_963
+relationship: variable_of LSU_02:0000135
+relationship: variable_of LSU_02:0000136
+relationship: variable_of LSU_02:0000137 
+
+[Term]
+id: LSU_02:0000197
+name: LSU_615
+relationship: variable_of LSU_02:0000140
+relationship: variable_of LSU_02:0000141
+relationship: variable_of LSU_02:0000142 
+
+[Term]
+id: LSU_02:0000198
+name: LSU_564
+relationship: variable_of LSU_02:0000145
+relationship: variable_of LSU_02:0000146
+relationship: variable_of LSU_02:0000147 
+
+[Term]
+id: LSU_02:0000199
+name: LSU_1200
+relationship: variable_of LSU_02:0000150
+relationship: variable_of LSU_02:0000151
+relationship: variable_of LSU_02:0000152 
+
+[Term]
+id: LSU_02:0000200
+name: LSU_1442
+relationship: variable_of LSU_02:0000154
+relationship: variable_of LSU_02:0000155
+relationship: variable_of LSU_02:0000156
+
+[Term]
+id: LSU_02:0000201
+name: LSU_1449
+relationship: variable_of LSU_02:0000157
+relationship: variable_of LSU_02:0000158
+relationship: variable_of LSU_02:0000159
+
+[Typedef]
+id: method_of
+name: method_of
+is_transitive: true
+
+[Typedef]
+id: scale_of
+name: scale_of
+is_transitive: true
+
+[Typedef]
+id: variable_of
+name: variable_of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
