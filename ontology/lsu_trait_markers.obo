@@ -1,5 +1,6 @@
-﻿format-version: 1.2
-ontology: LSU_rice_ontology
+format-version: 1.2
+ontology: LSU_rice_marker_ontology
+default-namespace: lsuRiceMarkers
 
 [Term]
 id: LSU_02:ROOT
@@ -97,19 +98,19 @@ relationship: scale_of LSU_02:0000008
 
 [Term]
 id: LSU_02:0000009/0
-name: CC
+name: CC_PikM
 synonym: "0" EXACT []
 is_a: LSU_02:0000009
 
 [Term]
 id: LSU_02:0000009/1
-name: GC
+name: GC_PikM
 synonym: "1" EXACT []
 is_a: LSU_02:0000009
 
 [Term]
 id: LSU_02:0000009/2
-name: GG
+name: GG_PikM
 synonym: "2" EXACT []
 is_a: LSU_02:0000009
 
@@ -144,14 +145,14 @@ relationship: scale_of LSU_02:0000013
 
 [Term]
 id: LSU_02:0000014/0
-name: TT
+name: TT_Sd1-Cal
 synonym: "0" EXACT []
 synonym: "SH" EXACT []
 is_a: LSU_02:0000014
 
 [Term]
 id: LSU_02:0000014/1
-name: CT
+name: CT_Sd1-Cal
 synonym: "1" EXACT []
 synonym: "Het" EXACT []
 synonym:"TC" EXACT []
@@ -159,7 +160,7 @@ is_a: LSU_02:0000014
 
 [Term]
 id: LSU_02:0000014/2
-name: CC
+name: CC_Sd1-Cal
 synonym: "2" EXACT []
 synonym: "TL" EXACT []
 is_a: LSU_02:0000014
@@ -183,21 +184,21 @@ relationship: scale_of LSU_02:0000016
 
 [Term]
 id: LSU_02:0000017/0
-name: GG
+name: GGSd1-Del1
 synonym: "0" EXACT []
 synonym: "SH" EXACT []
 is_a: LSU_02:0000017
 
 [Term]
 id: LSU_02:0000017/1
-name: AG
+name: AG_Sd1-Del1
 synonym: "1" EXACT []
 synonym: "Het" EXACT []
 is_a: LSU_02:0000017
 
 [Term]
 id: LSU_02:0000017/2
-name: AA
+name: AA_Sd1-Del1
 synonym: "2" EXACT []
 synonym: "TL" EXACT []
 is_a: LSU_02:0000017
@@ -221,14 +222,14 @@ relationship: scale_of LSU_02:0000019
 
 [Term]
 id: LSU_02:0000020/0
-name: TT
+name: TT_Sd1-Del2
 synonym: "0" EXACT []
 synonym: "SH" EXACT []
 is_a: LSU_02:0000020
 
 [Term]
 id: LSU_02:0000020/1
-name: CT
+name: CT_Sd1-Del2
 synonym: "1" EXACT []
 synonym: "Het" EXACT []
 synonym: "TC" EXACT []
@@ -236,7 +237,7 @@ is_a: LSU_02:0000020
 
 [Term]
 id: LSU_02:0000020/2
-name: CC
+name: CC_Sd1-Del2
 synonym: "2" EXACT []
 synonym: "TL" EXACT []
 is_a: LSU_02:0000020
@@ -272,14 +273,14 @@ relationship: scale_of LSU_02:0000024
 
 [Term]
 id: LSU_02:0000025/0
-name: CC
+name: CC_GLAB1
 synonym: "0" EXACT []
 synonym: "Gib" EXACT []
 is_a: LSU_02:0000025
 
 [Term]
 id: LSU_02:0000025/1
-name: CT
+name: CT_GLAB1
 synonym: "1" EXACT []
 synonym: "Het" EXACT []
 synonym: "TC" EXACT []
@@ -287,7 +288,7 @@ is_a: LSU_02:0000025
 
 [Term]
 id: LSU_02:0000025/2
-name: TT
+name: TT_GLAB1
 synonym: "2" EXACT []
 synonym: "TT" EXACT []
 is_a: LSU_02:0000025
@@ -317,19 +318,19 @@ relationship: scale_of LSU_02:0000028
 
 [Term]
 id: LSU_02:0000029/0
-name: AA
+name: AA_Pi42-20
 synonym: "0" EXACT []
 is_a: LSU_02:0000029
 
 [Term]
 id: LSU_02:0000029/1
-name: AG
+name: AG_Pi42-20
 synonym: "1" EXACT []
 is_a: LSU_02:0000029
 
 [Term]
 id: LSU_02:0000029/2
-name: GG
+name: GG_Pi42-20
 synonym: "2" EXACT []
 is_a: LSU_02:0000029
 
@@ -353,13 +354,13 @@ relationship: scale_of LSU_02:0000031
 
 [Term]
 id: LSU_02:0000032/0
-name: CC
+name: CC_Pi42-24
 synonym: "0" EXACT []
 is_a: LSU_02:0000032
 
 [Term]
 id: LSU_02:0000032/1
-name: CT
+name: CT_Pi42-24
 synonym: "1" EXACT []
 synonym: "Het" EXACT []
 synonym: "TC" EXACT []
@@ -367,7 +368,7 @@ is_a: LSU_02:0000032
 
 [Term]
 id: LSU_02:0000032/2
-name: TT
+name: TT_Pi42-24
 synonym: "2" EXACT []
 is_a: LSU_02:0000032
 
@@ -390,19 +391,19 @@ relationship: scale_of LSU_02:0000034
 
 [Term]
 id: LSU_02:0000035/0
-name: CC
+name: CC_Pi42-25
 synonym: "0" EXACT []
 is_a: LSU_02:0000035
 
 [Term]
 id: LSU_02:0000035/1
-name: CT
+name: CT_Pi42-25
 synonym: "1" EXACT []
 is_a: LSU_02:0000035
 
 [Term]
 id: LSU_02:0000035/2
-name: TT
+name: TT_Pi42-25
 synonym: "2" EXACT []
 is_a: LSU_02:0000035
 
@@ -416,29 +417,29 @@ is_a: LSU_02:0000026
 id: LSU_02:0000037
 name: KASP_Pi42-26
 def: "KASP marker for Pi42-26 at 6,765,250 bp" []
-is_a: LSU_02:0000036
+relationship: method_of LSU_02:0000036
 
 [Term]
 id: LSU_02:0000038
 name: Pi42-26_snp_geno
-relationship: method_of LSU_02:0000037
+relationship: scale_of LSU_02:0000037
 
 [Term]
 id: LSU_02:0000038/0
-name: CC
+name: CC_Pi42-26
 synonym: "0" EXACT []
 is_a: LSU_02:0000038
 
 [Term]
 id: LSU_02:0000038/1
-name: CT
+name: CT_Pi42-26
 synonym: "1" EXACT []
 synnoym: "TC" EXACT []
 is_a: LSU_02:0000038
 
 [Term]
 id: LSU_02:0000038/2
-name: TT
+name: TT_Pi42-26
 synonym: "2" EXACT []
 is_a: LSU_02:0000038
 
@@ -467,20 +468,20 @@ relationship: scale_of LSU_02:0000041
 
 [Term]
 id: LSU_02:0000042/0
-name: GG
+name: GG_Pi43-14
 synonym: "0" EXACT []
 is_a: LSU_02:0000042
 
 [Term]
 id: LSU_02:0000042/1
-name: GA
+name: GA_Pi43-14
 synonym: "1" EXACT []
 synonym: "AG" EXACT []
 is_a: LSU_02:0000042
 
 [Term]
 id: LSU_02:0000042/2
-name: AA
+name: AA_Pi43-14
 synonym: "2" EXACT []
 is_a: LSU_02:0000042
 
@@ -503,20 +504,20 @@ relationship: scale_of LSU_02:0000044
 
 [Term]
 id: LSU_02:0000045/0
-name: GG
+name: GG_Pi43-24
 synonym: "0" EXACT []
 is_a: LSU_02:0000045
 
 [Term]
 id: LSU_02:0000045/1
-name: GA
+name: GA_Pi43-24
 synonym: "AG" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000045
 
 [Term]
 id: LSU_02:0000045/2
-name: AA
+name: AA_Pi43-24
 synonym: "2" EXACT []
 is_a: LSU_02:0000045
 
@@ -540,20 +541,20 @@ relationship: scale_of LSU_02:0000047
 
 [Term]
 id: LSU_02:0000048/0
-name: CC
+name: CC_Pi43-30
 synonym: "0" EXACT []
 is_a: LSU_02:0000048
 
 [Term]
 id: LSU_02:0000048/1
-name: CT
+name: CT_Pi43-30
 synonym: "1"  EXACT []
 synonym: "TC"  EXACT []
 is_a: LSU_02:0000048
 
 [Term]
 id: LSU_02:0000048/2
-name: TT
+name: TT_Pi43-30
 synonym: "2" EXACT []
 is_a: LSU_02:0000048
 
@@ -577,20 +578,20 @@ relationship: scale_of LSU_02:0000050
 
 [Term]
 id: LSU_02:0000051/0
-name: GG
+name: GG_Pi43-31
 synonym: "0" EXACT []
 is_a: LSU_02:0000051
 
 [Term]
 id: LSU_02:0000051/1
-name: GA
+name: GA_Pi43-31
 synonym: "1" EXACT []
 synonym: "AG" EXACT []
 is_a: LSU_02:0000051
 
 [Term]
 id: LSU_02:0000051/2
-name: AA
+name: AA_Pi43-31
 synonym: "2" EXACT []
 is_a: LSU_02:0000051
 
@@ -619,20 +620,20 @@ relationship: scale_of LSU_02:0000054
 
 [Term]
 id: LSU_02:0000055/0
-name:GG
+name:GG_Pi9-2
 synonym: "0" EXACT []
 is_a: LSU_02:0000055
 
 [Term]
 id: LSU_02:0000055/1
-name:GC
+name:GC_Pi9-2
 synonym: "1" EXACT []
 synonym: "CG" EXACT []
 is_a: LSU_02:0000055
 
 [Term]
 id: LSU_02:0000055/2
-name:CC
+name:CC_Pi9-2
 synonym: "2" EXACT []
 is_a: LSU_02:0000055
 
@@ -655,21 +656,21 @@ relationship: scale_of LSU_02:0000057
 
 [Term]
 id: LSU_02:0000058/0
-name: CC
+name: CC_Pi9-1
 synonym: "0" EXACT []
 synonym: "Sus" EXACT []
 is_a: LSU_02:0000058
 
 [Term]
 id: LSU_02:0000058/1
-name: CA
+name: CA_Pi9-1
 synonym: "1" EXACT []
 synonym: "AC" EXACT []
 is_a: LSU_02:0000058
 
 [Term]
 id: LSU_02:0000058/2
-name: AA
+name: AA_Pi9-1
 synonym: "2" EXACT []
 synonym: "Res" EXACT []
 is_a: LSU_02:0000058
@@ -693,21 +694,21 @@ relationship: scale_of LSU_02:0000060
 
 [Term]
 id: LSU_02:0000061/0
-name: CC
+name: CC_Pi9-3
 synonym: "0" EXACT []
 synonym: "Sus" EXACT []
 is_a: LSU_02:0000061
 
 [Term]
 id: LSU_02:0000061/1
-name: CT
+name: CT_Pi9-3
 synonym: "1" EXACT []
 synonym: "TC" EXACT []
 is_a: LSU_02:0000061
 
 [Term]
 id: LSU_02:0000061/2
-name: TT
+name: TT_Pi9-3
 synonym: "2" EXACT []
 synonym: "Res" EXACT []
 is_a: LSU_02:0000061
@@ -737,21 +738,21 @@ relationship: scale_of LSU_02:0000064
 
 [Term]
 id: LSU_02:0000065/0
-name: GG
+name: GG_Pib-3
 synonym: "0" EXACT []
 synonym: "Sus" EXACT []
 is_a: LSU_02:0000065
 
 [Term]
 id: LSU_02:0000065/1
-name: GA
+name: GA_Pib-3
 synonym: "1" EXACT []
 synonym: "AG" EXACT []
 is_a: LSU_02:0000065
 
 [Term]
 id: LSU_02:0000065/2
-name: AA
+name: AA_Pib-3
 synonym: "2" EXACT []
 synonym: "Res" EXACT []
 is_a: LSU_02:0000065
@@ -775,21 +776,21 @@ relationship: scale_of LSU_02:0000067
 
 [Term]
 id: LSU_02:0000068/0
-name: AA
+name: AA_Pib-1
 synonym: "Sus" EXACT []
 synonym: "0" EXACT []
 is_a: LSU_02:0000068
 
 [Term]
 id: LSU_02:0000068/1
-name: AG
+name: AG_Pib-1
 synonym: "GA" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000068
 
 [Term]
 id: LSU_02:0000068/2
-name: GG
+name: GG_Pib-1
 synonym: "Res" EXACT []
 synonym: "2" EXACT []
 is_a: LSU_02:0000068
@@ -813,21 +814,21 @@ relationship: scale_of LSU_02:0000070
 
 [Term]
 id: LSU_02:0000071/0
-name: CC
+name: CC_Pib-2
 synonym: "0" EXACT []
 synonym: "Sus" EXACT []
 is_a: LSU_02:0000071
 
 [Term]
 id: LSU_02:0000071/1
-name: CT
+name: CT_Pib-2
 synonym: "TC" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000071
 
 [Term]
 id: LSU_02:0000071/2
-name: TT
+name: TT_Pib-2
 synonym: "Res" EXACT []
 synonym: "2" EXACT []
 is_a: LSU_02:0000071
@@ -857,21 +858,21 @@ relationship: scale_of LSU_02:0000074
 
 [Term]
 id: LSU_02:0000075/0
-name: GG
+name: GG_Pita1
 synonym: "Sus" EXACT []
 synonym: "0" EXACT []
 is_a: LSU_02:0000075
 
 [Term]
 id: LSU_02:0000075/1
-name: AG
+name: AG_Pita1
 synonym: "GA" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000075
 
 [Term]
 id: LSU_02:0000075/2
-name: AA
+name: AA_Pita1
 synonym: "Res" EXACT []
 synonym: "2" EXACT []
 is_a: LSU_02:0000075
@@ -895,21 +896,21 @@ relationship: scale_of LSU_02:0000077
 
 [Term]
 id: LSU_02:0000078/0
-name: CC
+name: CC_Pita2
 synonym: "0" EXACT []
 synonym: "Sus" EXACT []
 is_a: LSU_02:0000078
 
 [Term]
 id: LSU_02:0000078/1
-name: TC
+name: TC_Pita2
 synonym: "1" EXACT []
 synonym: "CT" EXACT []
 is_a: LSU_02:0000078
 
 [Term]
 id: LSU_02:0000078/2
-name: TT
+name: TT_Pita2
 synonym: "2" EXACT []
 synonym: "Res" EXACT []
 is_a: LSU_02:0000078
@@ -939,21 +940,21 @@ relationship: scale_of LSU_02:0000081
 
 [Term]
 id: LSU_02:0000082/0
-name: TT
+name: TT_Pizt-17
 synonym: "0" EXACT []
 synonym: "Sus" EXACT []
 is_a: LSU_02:0000082
 
 [Term]
 id: LSU_02:0000082/1
-name: TG
+name: TG_Pizt-17
 synonym: "1" EXACT []
 synonym: "GT" EXACT []
 is_a: LSU_02:0000082
 
 [Term]
 id: LSU_02:0000082/2
-name: GG
+name: GG_Pizt-17
 synonym: "2" EXACT []
 synonym: "Res" EXACT []
 is_a: LSU_02:0000082
@@ -977,21 +978,21 @@ relationship: scale_of LSU_02:0000084
 
 [Term]
 id: LSU_02:0000085/0
-name: CC
+name: CC_Pizt-2
 synonym: "0" EXACT []
 synonym: "Sus" EXACT []
 is_a: LSU_02:0000085
 
 [Term]
 id: LSU_02:0000085/1
-name: CT
+name: CT_Pizt-2
 synonym: "1" EXACT []
 synonym: "TC" EXACT []
 is_a: LSU_02:0000085
 
 [Term]
 id: LSU_02:0000085/2
-name: TT
+name: TT_Pizt-2
 synonym: "2" EXACT []
 synonym: "Res" EXACT []
 is_a: LSU_02:0000085
@@ -1015,21 +1016,21 @@ relationship: scale_of LSU_02:0000087
 
 [Term]
 id: LSU_02:0000088/0
-name: CC
+name: CC_Pizt-22
 synonym: "Sus" EXACT []
 synonym: "0" EXACT []
 is_a: LSU_02:0000088
 
 [Term]
 id: LSU_02:0000088/1
-name: TC
+name: TC_Pizt-22
 synonym: "CT" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000088
 
 [Term]
 id: LSU_02:0000088/2
-name: TT
+name: TT_Pizt-22
 synonym: "2" EXACT []
 synonym: "Res" EXACT []
 is_a: LSU_02:0000088
@@ -1065,21 +1066,21 @@ relationship: scale_of LSU_02:0000092
 
 [Term]
 id: LSU_02:0000093/0
-name: TT
+name: TT_CRSP2
 synonym: "Sus" EXACT []
 synonym: "0" EXACT []
 is_a: LSU_02:0000093
 
 [Term]
 id: LSU_02:0000093/1
-name: CT
+name: CT_CRSP2
 synonym: "TC" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000093
 
 [Term]
 id: LSU_02:0000093/2
-name: CC
+name: CC_CRSP2
 synonym: "Res" EXACT []
 synonym: "2" EXACT []
 is_a: LSU_02:0000093
@@ -1115,24 +1116,24 @@ relationship: scale_of LSU_02:0000097
 
 [Term]
 id: LSU_02:0000098/0
-name: AA
+name: AA_WaxyExon_1
 synonym: "0" EXACT []
 synonym: "Low" EXACT []
-relationship: scale_of LSU_02:0000098
+is_a: LSU_02:0000098
 
 [Term]
 id: LSU_02:0000098/1
-name: AC
+name: AC_WaxyExon_1
 synonym: "1" EXACT []
 synonym: "CA" EXACT []
-relationship: scale_of LSU_02:0000098
+is_a: LSU_02:0000098
 
 [Term]
 id: LSU_02:0000098/2
-name: CC
+name: CC_WaxyExon_1
 synonym: "2" EXACT []
 synonym: "Std" EXACT []
-relationship: scale_of LSU_02:0000098
+is_a: LSU_02:0000098
 
 [Term]
 id: LSU_02:0000099
@@ -1153,21 +1154,21 @@ relationship: scale_of LSU_02:0000100
 
 [Term]
 id: LSU_02:0000101/0
-name: GG
+name: GG_Wx-1
 synonym: "Low" EXACT []
 synonym: "0" EXACT []
 is_a: LSU_02:0000101
 
 [Term]
 id: LSU_02:0000101/1
-name: CG
+name: CG_Wx-1
 synonym: "1" EXACT []
 synonym: "GC" EXACT []
 is_a: LSU_02:0000101
 
 [Term]
 id: LSU_02:0000101/2
-name: CC
+name: CC_Wx-1
 synonym: "2" EXACT []
 synonym: "Std" EXACT []
 is_a: LSU_02:0000101
@@ -1191,21 +1192,21 @@ relationship: scale_of LSU_02:0000103
 
 [Term]
 id: LSU_02:0000104/0
-name: CC
+name: CC_WaxyExon_10
 synonym: "0" EXACT []
 synonym: "Std" EXACT []
 is_a: LSU_02:0000104
 
 [Term]
 id: LSU_02:0000104/1
-name: CT
+name: CT_WaxyExon_10
 synonym: "TC" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000104
 
 [Term]
 id: LSU_02:0000104/2
-name: TT
+name: TT_WaxyExon_10
 synonym: "2" EXACT []
 synonym: "Hgh" EXACT []
 is_a: LSU_02:0000104
@@ -1229,24 +1230,24 @@ relationship: scale_of LSU_02:0000107
 
 [Term]
 id: LSU_02:0000108/0
-name: CC
+name: CC_Wx-6
 synonym: "0" EXACT []
 synonym: "Std" EXACT []
-relationship: scale_of LSU_02:0000108
+is_a: LSU_02:0000108
 
 [Term]
 id: LSU_02:0000108/1
-name: CT
+name: CT_Wx-6
 synonym: "1" EXACT []
 synonym: "TC" EXACT []
-relationship: scale_of LSU_02:0000108
+is_a: LSU_02:0000108
 
 [Term]
 id: LSU_02:0000108/2
-name: TT
+name: TT_Wx-6
 synonym: "2" EXACT []
 synonym: "Hgh" EXACT []
-relationship: scale_of LSU_02:0000108
+is_a: LSU_02:0000108
 
 [Term]
 id: LSU_02:0000109
@@ -1267,21 +1268,21 @@ relationship: scale_of LSU_02:0000110
 
 [Term]
 id: LSU_02:0000111/0
-name: TT
+name: TT_Wx-3
 synonym: "0" EXACT []
 synonym: "Std" EXACT []
 is_a: LSU_02:0000111
 
 [Term]
 id: LSU_02:0000111/1
-name: CT
+name: CT_Wx-3
 synonym: "1" EXACT []
 synonym: "TC" EXACT []
 is_a: LSU_02:0000111
 
 [Term]
 id: LSU_02:0000111/2
-name: CC
+name: CC_Wx-3
 synonym: "2"  EXACT []
 synonym: "IntH"  EXACT []
 is_a: LSU_02:0000111
@@ -1305,21 +1306,21 @@ relationship: scale_of LSU_02:0000113
 
 [Term]
 id: LSU_02:0000114/0
-name: AA
+name: AA_WaxyExon_6
 synonym: "0" EXACT []
 synonym: "Std" EXACT []
 is_a: LSU_02:0000114
 
 [Term]
 id: LSU_02:0000114/1
-name: AC
+name: AC_WaxyExon_6
 synonym: "CA" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000114
 
 [Term]
 id: LSU_02:0000114/2
-name: CC
+name: CC_WaxyExon_6
 synonym: "2" EXACT []
 synonym: "IntH" EXACT []
 is_a: LSU_02:0000114
@@ -1355,21 +1356,21 @@ relationship: scale_of LSU_02:0000118
 
 [Term]
 id: LSU_02:0000119/0
-name: CC
+name: CC_BADH2_1129
 synonym: "Std" EXACT []
 synonym: "0" EXACT []
 is_a: LSU_02:0000119
 
 [Term]
 id: LSU_02:0000119/1
-name: CT
+name: CT_BADH2_1129
 synonym: "TC" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000119
 
 [Term]
 id: LSU_02:0000119/2
-name: TT
+name: TT_BADH2_1129
 synonym: "2" EXACT []
 synonym: "Aro" EXACT []
 is_a: LSU_02:0000119
@@ -1452,24 +1453,24 @@ relationship: scale_of LSU_02:0000127
 
 [Term]
 id: LSU_02:0000128/0
-name: AA
+name: AA_RC-1
 synonym: "0" EXACT []
 synonym: "WHT" EXACT []
-relationship: scale_of LSU_02:0000128
+is_a: LSU_02:0000128
 
 [Term]
 id: LSU_02:0000128/1
-name: AG
+name: AG_RC-1
 synonym: "1" EXACT []
 synonym: "GA" EXACT []
-relationship: scale_of LSU_02:0000128
+is_a: LSU_02:0000128
 
 [Term]
 id: LSU_02:0000128/2
-name: GG
+name: GG_RC-1
 synonym: "2" EXACT []
 synonym: "RED" EXACT []
-relationship: scale_of LSU_02:0000128
+is_a: LSU_02:0000128
 
 [Term]
 id: LSU_02:0000129
@@ -1502,21 +1503,21 @@ relationship: scale_of LSU_02:0000132
 
 [Term]
 id: LSU_02:0000133/0
-name: CC
+name: CC_qGL7.1
 synonym: "0" EXACT []
 synonym: "Med" EXACT []
 is_a: LSU_02:0000133
 
 [Term]
 id: LSU_02:0000133/1
-name: CT
+name: CT_qGL7.1
 synonym: "1" EXACT []
 synonym: "TC" EXACT []
 is_a: LSU_02:0000133
 
 [Term]
 id: LSU_02:0000133/2
-name: TT
+name: TT_qGL7.1
 synonym: "2" EXACT []
 synonym: "Lng" EXACT []
 is_a: LSU_02:0000133
@@ -1546,21 +1547,21 @@ relationship: scale_of LSU_02:0000136
 
 [Term]
 id: LSU_02:0000137/0
-name: GG
+name: GG_GS3-1
 synonym: "0" EXACT []
 synonym: "Med" EXACT []
 is_a: LSU_02:0000137
 
 [Term]
 id: LSU_02:0000137/1
-name: GT
+name: GT_GS3-1
 synonym: "1" EXACT []
 synonym: "TG" EXACT []
 is_a: LSU_02:0000137
 
 [Term]
 id: LSU_02:0000137/2
-name: TT
+name: TT_GS3-1
 synonym: "2" EXACT []
 synonym: "Lng" EXACT []
 is_a: LSU_02:0000137
@@ -1644,21 +1645,21 @@ relationship: scale_of LSU_02:0000146
 
 [Term]
 id: LSU_02:0000147/0
-name: AA
+name: AA_PV
 synonym: "0" EXACT []
 synonym: "WT" EXACT []
 is_a: LSU_02:0000147
 
 [Term]
 id: LSU_02:0000147/1
-name: AT
+name: AT_PV
 synonym: "1" EXACT []
 synonym: "TA" EXACT []
 is_a: LSU_02:0000147
 
 [Term]
 id: LSU_02:0000147/2
-name: TT
+name: TT_PV
 synonym: "2" EXACT []
 synonym: "PV" EXACT []
 is_a: LSU_02:0000147
@@ -1694,21 +1695,21 @@ relationship: scale_of LSU_02:0000151
 
 [Term]
 id: LSU_02:0000152/0
-name: AA
+name: AA_RF3-1
 synonym: "0" EXACT []
 synonym: "MNT" EXACT []
 is_a: LSU_02:0000152
 
 [Term]
 id: LSU_02:0000152/1
-name: AG
+name: AG_RF3-1
 synonym: "1" EXACT []
 synonym: "GA" EXACT []
 is_a: LSU_02:0000152
 
 [Term]
 id: LSU_02:0000152/2
-name: GG
+name: GG_RF3-1
 synonym: "2" EXACT []
 synonym: "RF3" EXACT []
 is_a: LSU_02:0000152
@@ -1738,20 +1739,20 @@ relationship: scale_of LSU_02:0000155
 
 [Term]
 id: LSU_02:0000156/0
-name: AA
+name: AA_RF4-24
 synonym: "0" EXACT []
 is_a: LSU_02:0000156
 
 [Term]
 id: LSU_02:0000156/1
-name: AT
+name: AT_RF4-24
 synonym: "TA" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000156
 
 [Term]
 id: LSU_02:0000156/2
-name: TT
+name: TT_RF4-24
 synonym: "2" EXACT []
 is_a: LSU_02:0000156
 
@@ -1774,20 +1775,20 @@ relationship: scale_of LSU_02:0000158
 
 [Term]
 id: LSU_02:0000159/0
-name: AA
+name: AA_RF4-31
 synonym: "0" EXACT []
 is_a: LSU_02:0000159
 
 [Term]
 id: LSU_02:0000159/1
-name: AC
+name: AC_RF4-31
 synonym: "CA" EXACT []
 synonym: "1" EXACT []
 is_a: LSU_02:0000159
 
 [Term]
 id: LSU_02:0000159/2
-name: CC
+name: CC_RF4-31
 synonym: "2" EXACT []
 is_a: LSU_02:0000159
 
