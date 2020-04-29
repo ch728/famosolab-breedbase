@@ -637,6 +637,9 @@ def: "Millimeter. One thousandth of a meter." []
 relationship: scale_of LSU_01:0000051
 relationship: scale_of LSU_01:0000052
 relationship: scale_of LSU_01:0000053
+relationship: scale_of LSU_01:0000176
+relationship: scale_of LSU_01:0000177
+relationship: scale_of LSU_01:0000178
 
 [Term]
 id: LSU_01:0000100
@@ -984,7 +987,7 @@ relationship: variable_of LSU_01:0000099
 [Term]
 id: LSU_01:0000127
 name: grainThickness_sc_mm
-def: "Average width of grains in mm determined by SC5000 instrument" []
+def: "Average thickness of grains in mm determined by SC5000 instrument" []
 relationship: variable_of LSU_01:0000005
 relationship: variable_of LSU_01:0000053
 relationship: variable_of LSU_01:0000099
@@ -1378,6 +1381,48 @@ def: "Gel temperature class based on RVA 4500 measurement in Celsius as an ordin
 relationship: variable_of LSU_01:0000012
 relationship: variable_of LSU_01:0000174
 relationship: variable_of LSU_01:0000137
+
+[Term]
+id: LSU_01:0000176
+name: WinSEEDLE grain length
+def: "Measurement of average grain length using WinSEEDLE" []
+relationship: method_of LSU_01:0000003
+
+[Term]
+id: LSU_01:0000177
+name: WinSEEDLE grain width
+def: "Measurement of average grain width using WinSEEDLE " []
+relationship: method_of LSU_01:0000004
+
+[Term]
+id: LSU_01:0000178
+name: WinSEEDLE grain length-width ratio
+def: "Measurement of average grain length-width using WinSEEDLE" []
+relationship: method_of LSU_01:0000006
+
+[Term]
+id: LSU_01:0000179
+name: grainLength_win_mm
+def: "Average length of grains in mm determined by WinSEEDLE instrument" []
+relationship: variable_of LSU_01:0000003
+relationship: variable_of LSU_01:0000176
+relationship: variable_of LSU_01:0000099
+
+[Term]
+id: LSU_01:0000180
+name: grainWidth_win_mm
+def: "Average width of grains in mm determined by WinSEEDLE instrument" []
+relationship: variable_of LSU_01:0000004
+relationship: variable_of LSU_01:0000177
+relationship: variable_of LSU_01:0000099
+
+[Term]
+id: LSU_01:0000181
+name: grainLengthWidth_win_ratio
+def: "Average grain length to width ratio calculated from length and width measured with WinSEEDLE" []
+relationship: variable_of LSU_01:0000006
+relationship: variable_of LSU_01:0000178
+relationship: variable_of LSU_01:0000108
 
 [Typedef]
 id: method_of

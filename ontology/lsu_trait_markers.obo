@@ -1106,7 +1106,7 @@ is_a: LSU_02:0000095
 [Term]
 id: LSU_02:0000097
 name: WaxyExon_1_KASP
-def: "KASP makr for WaxyExon_1; Primary" []
+def: "KASP maker for WaxyExon_1; Primary" []
 relationship: method_of LSU_02:0000096
 
 [Term]
@@ -1795,6 +1795,7 @@ is_a: LSU_02:0000159
 [Term]
 id: LSU_02:0000160
 name: LSU_1192
+def: "Agronomic; Plant height; Sd1; Sd1-Cal; Primary; KASP" []
 relationship: variable_of LSU_02:0000012
 relationship: variable_of LSU_02:0000013
 relationship: variable_of LSU_02:0000014
@@ -1802,6 +1803,7 @@ relationship: variable_of LSU_02:0000014
 [Term]
 id: LSU_02:0000161
 name: LSU_961
+def: "Agronomic; Plant height; Sd1; Sd1-Del; Primary; KASP" []
 relationship: variable_of LSU_02:0000015
 relationship: variable_of LSU_02:0000016
 relationship: variable_of LSU_02:0000017
@@ -1809,6 +1811,7 @@ relationship: variable_of LSU_02:0000017
 [Term]
 id: LSU_02:0000162
 name: LSU_946
+def: "Agronomic; Plant height; Sd1; Sd1-Del2; Backup; KASP" []
 relationship: variable_of LSU_02:0000018
 relationship: variable_of LSU_02:0000019
 relationship: variable_of LSU_02:0000020
@@ -1816,6 +1819,7 @@ relationship: variable_of LSU_02:0000020
 [Term]
 id: LSU_02:0000163
 name: LSU_527
+def: "Agonomic; Pubescence; Glab1; GLAB1; Primary; KASP" []
 relationship: variable_of LSU_02:0000023
 relationship: variable_of LSU_02:0000024
 relationship: variable_of LSU_02:0000025
@@ -1823,6 +1827,7 @@ relationship: variable_of LSU_02:0000025
 [Term]
 id: LSU_02:0000164
 name: LSU_698
+def: "Disease; Blast; Pi42; Pi42-20; KASP" []
 relationship: variable_of LSU_02:0000027
 relationship: variable_of LSU_02:0000028
 relationship: variable_of LSU_02:0000029
@@ -1830,6 +1835,7 @@ relationship: variable_of LSU_02:0000029
 [Term]
 id: LSU_02:0000165
 name: LSU_652
+def: "Disease; Blast; Pi42; Pi42-24; KASP" []
 relationship: variable_of LSU_02:0000030
 relationship: variable_of LSU_02:0000031
 relationship: variable_of LSU_02:0000032
@@ -1837,6 +1843,7 @@ relationship: variable_of LSU_02:0000032
 [Term]
 id: LSU_02:0000166
 name: LSU_663
+def: "Disease; Blast; Pi42; Pi42-25; KASP" []
 relationship: variable_of LSU_02:0000033
 relationship: variable_of LSU_02:0000034
 relationship: variable_of LSU_02:0000035
@@ -1844,6 +1851,7 @@ relationship: variable_of LSU_02:0000035
 [Term]
 id: LSU_02:0000167
 name: LSU_675
+def: "Disease; Blast; Pi42; Pi42-26; KASP" []
 relationship: variable_of LSU_02:0000036
 relationship: variable_of LSU_02:0000037
 relationship: variable_of LSU_02:0000038
@@ -1851,6 +1859,7 @@ relationship: variable_of LSU_02:0000038
 [Term]
 id: LSU_02:0000168
 name: LSU_630
+def: "Disease; Blast; Pi43; Pi43-14; KASP" []
 relationship: variable_of LSU_02:0000040
 relationship: variable_of LSU_02:0000041
 relationship: variable_of LSU_02:0000042
@@ -1858,6 +1867,7 @@ relationship: variable_of LSU_02:0000042
 [Term]
 id: LSU_02:0000169
 name: LSU_631
+def: "Disease; Blast; Pi43; Pi43-24; KASP" []
 relationship: variable_of LSU_02:0000043
 relationship: variable_of LSU_02:0000044
 relationship: variable_of LSU_02:0000045
@@ -1865,6 +1875,7 @@ relationship: variable_of LSU_02:0000045
 [Term]
 id: LSU_02:0000170
 name: LSU_678
+def: "Disease; Blast; Pi43; Pi43-30; KASP" []
 relationship: variable_of LSU_02:0000046
 relationship: variable_of LSU_02:0000047
 relationship: variable_of LSU_02:0000048 
@@ -1872,6 +1883,7 @@ relationship: variable_of LSU_02:0000048
 [Term]
 id: LSU_02:0000171
 name: LSU_690
+def: "Disease; Blast; Pi43; Pi43-31; KASP" []
 relationship: variable_of LSU_02:0000049
 relationship: variable_of LSU_02:0000050
 relationship: variable_of LSU_02:0000051
@@ -1879,6 +1891,7 @@ relationship: variable_of LSU_02:0000051
 [Term]
 id: LSU_02:0000172
 name: LSU_1125
+def: "Disease; Blast; Pi9; Pi9-2; Primary; KASP" []
 relationship: variable_of LSU_02:0000053
 relationship: variable_of LSU_02:0000054
 relationship: variable_of LSU_02:0000055 
@@ -1886,6 +1899,7 @@ relationship: variable_of LSU_02:0000055
 [Term]
 id: LSU_02:0000173
 name: LSU_1124
+def: "Disease; Blast; Pi9; Pi9-1; Backup; KASP" []
 relationship: variable_of LSU_02:0000056
 relationship: variable_of LSU_02:0000057
 relationship: variable_of LSU_02:0000058 
@@ -1893,6 +1907,7 @@ relationship: variable_of LSU_02:0000058
 [Term]
 id: LSU_02:0000174
 name: LSU_1126
+def: "Disease; Blast; Pi9; Pi9-3; Backup; KASP" []
 relationship: variable_of LSU_02:0000059
 relationship: variable_of LSU_02:0000060
 relationship: variable_of LSU_02:0000061
@@ -1900,6 +1915,7 @@ relationship: variable_of LSU_02:0000061
 [Term]
 id: LSU_02:0000175
 name: LSU_716
+def: "Disease; Blast; Pib; Pib-3; Primary; KASP" []
 relationship: variable_of LSU_02:0000063
 relationship: variable_of LSU_02:0000064
 relationship: variable_of LSU_02:0000065 
@@ -1907,6 +1923,7 @@ relationship: variable_of LSU_02:0000065
 [Term]
 id: LSU_02:0000176
 name: LSU_714
+def: "Disease; Blast; Pib; Pib-1; Backup; KASP" []
 relationship: variable_of LSU_02:0000066
 relationship: variable_of LSU_02:0000067
 relationship: variable_of LSU_02:0000068
@@ -1914,6 +1931,7 @@ relationship: variable_of LSU_02:0000068
 [Term]
 id: LSU_02:0000177
 name: LSU_715
+def: "Disease; Blast; Pib; Pib-2; Backup; KASP" []
 relationship: variable_of LSU_02:0000069
 relationship: variable_of LSU_02:0000070
 relationship: variable_of LSU_02:0000071 
@@ -1921,6 +1939,7 @@ relationship: variable_of LSU_02:0000071
 [Term]
 id: LSU_02:0000178 
 name: LSU_1112
+def: "Disease; Blast; Pik; PikS; Primary; KASP" [] 
 relationship: variable_of LSU_02:0000004
 relationship: variable_of LSU_02:0000005
 relationship: variable_of LSU_02:0000006
@@ -1928,6 +1947,7 @@ relationship: variable_of LSU_02:0000006
 [Term]
 id: LSU_02:0000179
 name: LSU_1122
+def: "Disease; Blast; Pik; PikM; Primary; KASP" []
 relationship: variable_of LSU_02:0000007
 relationship: variable_of LSU_02:0000008
 relationship: variable_of LSU_02:0000009
@@ -1935,6 +1955,7 @@ relationship: variable_of LSU_02:0000009
 [Term]
 id: LSU_02:0000180
 name: LSU_845
+def: "Disease; Blast; Pita; Pita1; Backup; KASP" []
 relationship: variable_of LSU_02:0000073
 relationship: variable_of LSU_02:0000074
 relationship: variable_of LSU_02:0000075 
@@ -1942,6 +1963,7 @@ relationship: variable_of LSU_02:0000075
 [Term]
 id: LSU_02:0000181
 name: LSU_597
+def: "Disease; Blast; Pita; Pita2; Primary; KASP" []
 relationship: variable_of LSU_02:0000076
 relationship: variable_of LSU_02:0000077
 relationship: variable_of LSU_02:0000078 
@@ -1949,6 +1971,7 @@ relationship: variable_of LSU_02:0000078
 [Term]
 id: LSU_02:0000182
 name: LSU_931
+def: "Disease; Blast; Piz; Pizt-17; Primary; KASP" []
 relationship: variable_of LSU_02:0000080
 relationship: variable_of LSU_02:0000081
 relationship: variable_of LSU_02:0000082 
@@ -1956,6 +1979,7 @@ relationship: variable_of LSU_02:0000082
 [Term]
 id: LSU_02:0000183
 name: LSU_637
+def: "Disease; Blast; Piz; Pizt-2; Backup; KASP" []
 relationship: variable_of LSU_02:0000083
 relationship: variable_of LSU_02:0000084
 relationship: variable_of LSU_02:0000085 
@@ -1963,6 +1987,7 @@ relationship: variable_of LSU_02:0000085
 [Term]
 id: LSU_02:0000184
 name: LSU_936
+def: "Disease; Blast; Piz; Pizt-22; Backup; KASP" []
 relationship: variable_of LSU_02:0000086
 relationship: variable_of LSU_02:0000087
 relationship: variable_of LSU_02:0000088 
@@ -1970,6 +1995,7 @@ relationship: variable_of LSU_02:0000088
 [Term]
 id: LSU_02:0000185
 name: LSU_861
+def: "Disease; Cercospora; CRSP2.1; CRSP2; Primary; KASP" []
 relationship: variable_of LSU_02:0000091
 relationship: variable_of LSU_02:0000092
 relationship: variable_of LSU_02:0000093 
@@ -1977,6 +2003,7 @@ relationship: variable_of LSU_02:0000093
 [Term]
 id: LSU_02:0000186
 name: LSU_595
+def: "Grain; Amylose; waxy; WaxyExon_1; Primary; KASP" []
 relationship: variable_of LSU_02:0000096
 relationship: variable_of LSU_02:0000097
 relationship: variable_of LSU_02:0000098 
@@ -1984,6 +2011,7 @@ relationship: variable_of LSU_02:0000098
 [Term]
 id: LSU_02:0000187
 name: LSU_982
+def: "Grain; Amylose; waxy; Wx-1; Backup; KASP" []
 relationship: variable_of LSU_02:0000099
 relationship: variable_of LSU_02:0000100
 relationship: variable_of LSU_02:0000101 
@@ -1991,6 +2019,7 @@ relationship: variable_of LSU_02:0000101
 [Term]
 id: LSU_02:0000188
 name: LSU_605
+def: "Grain; Amylose; waxy; WaxyExon_10; Primary; KASP" []
 relationship: variable_of LSU_02:0000102
 relationship: variable_of LSU_02:0000103
 relationship: variable_of LSU_02:0000104 
@@ -1998,6 +2027,7 @@ relationship: variable_of LSU_02:0000104
 [Term]
 id: LSU_02:0000189
 name: LSU_987
+def: "Grain; Amylose; waxy; Wx-6; Backup; KASP" []
 relationship: variable_of LSU_02:0000106
 relationship: variable_of LSU_02:0000107
 relationship: variable_of LSU_02:0000108  
@@ -2005,6 +2035,7 @@ relationship: variable_of LSU_02:0000108
 [Term]
 id: LSU_02:0000190
 name: LSU_984
+def: "Grain; Amylose; waxy; Wx-3; Primary; KASP" []
 relationship: variable_of LSU_02:0000109
 relationship: variable_of LSU_02:0000110
 relationship: variable_of LSU_02:0000111 
@@ -2012,6 +2043,7 @@ relationship: variable_of LSU_02:0000111
 [Term]
 id: LSU_02:0000191
 name: LSU_584
+def: "Grain; Amylose; waxy; WaxyExon_6; Backup; KASP" []
 relationship: variable_of LSU_02:0000112
 relationship: variable_of LSU_02:0000113
 relationship: variable_of LSU_02:0000114
@@ -2019,6 +2051,7 @@ relationship: variable_of LSU_02:0000114
 [Term]
 id: LSU_02:0000192
 name: LSU_601
+def: "Grain; Aroma; BADH2; BADH2_1129; Backup; KASP" []
 relationship: variable_of LSU_02:0000117
 relationship: variable_of LSU_02:0000118
 relationship: variable_of LSU_02:0000119 
@@ -2026,6 +2059,7 @@ relationship: variable_of LSU_02:0000119
 [Term]
 id: LSU_02:0000193
 name: LSU_544
+def: "Gelatinization Temperature; ALK; ALK_SNP; Primary; KASP" []
 relationship: variable_of LSU_02:0000121
 relationship: variable_of LSU_02:0000122
 relationship: variable_of LSU_02:0000123 
@@ -2033,6 +2067,7 @@ relationship: variable_of LSU_02:0000123
 [Term]
 id: LSU_02:0000194
 name: LSU_926
+def: "Grain; Grain color; RC; RC-1; Primary; KASP" []
 relationship: variable_of LSU_02:0000126
 relationship: variable_of LSU_02:0000127
 relationship: variable_of LSU_02:0000128 
@@ -2041,6 +2076,7 @@ relationship: variable_of LSU_02:0000128
 [Term]
 id: LSU_02:0000195
 name: LSU_323
+def: "Grain; Grain size; qGL7.1; Primary; KASP" []
 relationship: variable_of LSU_02:0000131
 relationship: variable_of LSU_02:0000132
 relationship: variable_of LSU_02:0000133 
@@ -2048,6 +2084,7 @@ relationship: variable_of LSU_02:0000133
 [Term]
 id: LSU_02:0000196
 name: LSU_963
+def: "Grain; Grain size; GS3; GS3-1; Primary; KASP" []
 relationship: variable_of LSU_02:0000135
 relationship: variable_of LSU_02:0000136
 relationship: variable_of LSU_02:0000137 
@@ -2055,6 +2092,7 @@ relationship: variable_of LSU_02:0000137
 [Term]
 id: LSU_02:0000197
 name: LSU_615
+def: "Herbicide; Clearfield; CL; Primary; KASP" []
 relationship: variable_of LSU_02:0000140
 relationship: variable_of LSU_02:0000141
 relationship: variable_of LSU_02:0000142 
@@ -2062,6 +2100,7 @@ relationship: variable_of LSU_02:0000142
 [Term]
 id: LSU_02:0000198
 name: LSU_564
+def: "Herbicide; Provisia; PV; Primary; KASP" []
 relationship: variable_of LSU_02:0000145
 relationship: variable_of LSU_02:0000146
 relationship: variable_of LSU_02:0000147 
@@ -2069,6 +2108,7 @@ relationship: variable_of LSU_02:0000147
 [Term]
 id: LSU_02:0000199
 name: LSU_1200
+def: "Sterility; Restoration; RF3; RF3-1; Primary; KASP" []
 relationship: variable_of LSU_02:0000150
 relationship: variable_of LSU_02:0000151
 relationship: variable_of LSU_02:0000152 
@@ -2076,6 +2116,7 @@ relationship: variable_of LSU_02:0000152
 [Term]
 id: LSU_02:0000200
 name: LSU_1442
+def: "Sterility; Restoration; RF4; RF4-24; Backup; KASP" []
 relationship: variable_of LSU_02:0000154
 relationship: variable_of LSU_02:0000155
 relationship: variable_of LSU_02:0000156
@@ -2083,9 +2124,179 @@ relationship: variable_of LSU_02:0000156
 [Term]
 id: LSU_02:0000201
 name: LSU_1449
+def: "Sterility; Restoration; RF4; RF4-31; Primary; KASP" []
 relationship: variable_of LSU_02:0000157
 relationship: variable_of LSU_02:0000158
 relationship: variable_of LSU_02:0000159
+
+[Term]
+id: LSU_02:0000202
+name: PikS_agriplex
+def: "Agriplex marker for PikS" []
+relationship: method_of LSU_02:0000004
+
+[Term]
+id: LSU_02:0000203
+name: PikM_agriplex
+def: "Agriplex marker for PikM  at ~27,820,001 bp; Primary" []
+relationship: method_of LSU_02:0000007
+
+[Term]
+id: LSU_02:0000204
+name: Sd1-Cal_agriplex
+def: "Agriplex marker for Sd1-Cal at 38,383,363 bp; Primary" []
+relationship: method_of LSU_02:0000012
+
+[Term]
+id: LSU_02:0000205
+name: Sd1-Del1_agriplex
+def: "Agriplex marker for deletion in Sd1 gene at 38,418,739 bp; Primary" []
+relationship: method_of LSU_02:0000015
+
+[Term]
+id: LSU_02:0000206
+name: Sd1-Del2_agriplex
+def: "Agriplex marker for deletion in Sd1 gene at 38,362,132 bp; Backup" []
+relationship: method_of LSU_02:0000018
+
+[Term]
+id: LSU_02:0000207
+name: GLAB1_agriplex
+def: "Agriplex marker for GLAB1 at 990,754 bp, Primary" []
+relationship: method_of LSU_02:0000023
+
+[Term]
+id: LSU_02:0000208
+name: Pi9-2_agriplex
+def: "Agriplex marker for Pi9-2; Primary" []
+relationship: method_of LSU_02:0000053
+
+[Term]
+id: LSU_02:0000209
+name: Pi9-3_agriplex
+def: "Agriplex marker for Pi9-3; Backup" []
+relationship: method_of LSU_02:0000059
+
+[Term]
+id: LSU_02:0000210
+name: Pib-3_agriplex
+def: "Agriplex marker for Pib-3; Primary" []
+relationship: method_of LSU_02:0000063
+
+[Term]
+id: LSU_02:0000211
+name: Pib-2_agriplex
+def: "Agriplex marker for Pib-2; Backup" []
+relationship: method_of LSU_02:0000069
+
+[Term]
+id: LSU_02:0000212
+name: Pita1_agriplex
+def: "Agriplex marker for Pita1; Backup" []
+relationship: method_of LSU_02:0000073
+
+[Term]
+id: LSU_02:0000213
+name: Pita2_agriplex
+def: "Agriplex marker for Pita2; Primary" []
+relationship: method_of LSU_02:0000076
+
+[Term]
+id: LSU_02:0000214
+name: Pizt-2_agriplex
+def: "Agriplex marker for Pizt-2; Backup" []
+relationship: method_of LSU_02:0000083
+
+[Term]
+id: LSU_02:0000215
+name: Pizt-22_agriplex
+def: "Agriplex marker for Pizt-22; Backup" []
+relationship: method_of LSU_02:0000086
+
+[Term]
+id: LSU_02:0000216
+name: CRSP2_agriplex
+def: "Agriplex marker for CRSP2; Primary." []
+relationship: method_of LSU_02:0000091
+
+[Term]
+id: LSU_02:0000217
+name: WaxyExon_1_agriplex
+def: "Agriplex maker for WaxyExon_1; Primary" []
+relationship: method_of LSU_02:0000096
+
+[Term]
+id: LSU_02:0000218
+name: Wx-1_agripex
+def: "Agriplex marker for Wx-1; Backup" []
+relationship: method_of LSU_02:0000099
+
+[Term]
+id: LSU_02:0000219
+name: WaxyExon_10_agriplex
+def: "Agriplex marker for WaxyExon_10; Primary" []
+relationship: method_of LSU_02:0000102
+
+[Term]
+id: LSU_02:0000220
+name: Wx-6_agriplex
+def: "Agriplex marker for Wx-6; Backup" []
+relationship: method_of LSU_02:0000106
+
+[Term]
+id: LSU_02:0000221
+name: Wx-3_agriplex
+def: "Agriplex marker for Wx-3; Primary" []
+relationship: method_of LSU_02:0000109
+
+[Term]
+id: LSU_02:0000222
+name: BADH2_1129_agriplex
+def: "Agriplex marker for BADH2_1129; Backup" []
+relationship: method_of LSU_02:0000117
+
+[Term]
+id: LSU_02:0000223
+name: ALK_SNP_agriplex
+def: "Agriplex marker for ALK_SNP; Primary" []
+relationship: method_of LSU_02:0000121
+
+[Term]
+id: LSU_02:0000224
+name: RC-1_agriplex
+def: "Agriplex marker for RC-1; Primary" []
+relationship: method_of LSU_02:0000126
+
+[Term]
+id: LSU_02:0000225
+name: qGL7.1_agriplex
+def: "Agriplex marker for grain size; Primary" []
+relationship: method_of LSU_02:0000131
+
+[Term]
+id: LSU_02:0000226
+name: GS3-1_agriplex
+def: "Agriplex marker for GS3-1; Primary" []
+relationship: method_of LSU_02:0000135
+
+[Term]
+id: LSU_02:0000227
+name: CL_agriplex
+def: "Agriplex maker for CL; Primary" []
+relationship: method_of LSU_02:0000140
+
+[Term]
+id: LSU_02:0000228
+name: PV_agriplex
+def: "Agriplex marker for PV; Primary" []
+relationship: method_of LSU_02:0000145
+
+[Term]
+id: LSU_02:0000229
+name: RF3-1_agriplex
+def: "Agriplex marker for RF3-1; Primary" []
+relationship: method_of LSU_02:0000150
+
 
 [Typedef]
 id: method_of
