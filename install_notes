@@ -26,24 +26,8 @@ perl ~/cxgn/Chado/chado/bin/gmod_load_cvterms.pl -H breedbase_db -D breedbase_fr
 perl ~/cxgn/Chado/chado/bin/gmod_load_cvterms.pl -H breedbase_db -D breedbase_fresh -d Pg -s LSU_02 -v -u -r postgres -n lsuRiceMarkers -p postgres ~/cxgn/famosolabbase/ontology/lsu_trait_markers.obo 
 
 # Delete defualt ontologies
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cv_id = 16"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cv_id = 54"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cv_id = 58"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cv_id = 59"
-
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvprop where cv_id = 16"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvprop where cv_id = 58"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvprop where cv_id = 59"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvprop where cv_id=64"
-
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=4"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=7"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=8"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=9"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=10"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=13"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=14"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete  from cvterm where cv_id=19"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cv_id = 16 or cv_id = 54 or cv_id = 58 or cv_id = 59 or cv_id = 4 or cv_id = 7 or cv_id =8 or cv_id = 9 or cv_id=10 or cv_id=13 or cv_id=14 or cv_id=19"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvprop where cv_id = 16 or cv_id=58 or cv_id=59 or cv_id=64"
 
 # Tag ontology as trait ontology
 perl ~/cxgn/sgn/bin/load_composed_cvprops.pl -H breedbase_db -D breedbase_fresh -T lsuRice
