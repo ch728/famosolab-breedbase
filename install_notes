@@ -31,7 +31,7 @@ psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvprop where
 
 # Tag ontology as trait ontology
 perl ~/cxgn/sgn/bin/load_composed_cvprops.pl -H breedbase_db -D breedbase_fresh -T lsuRice
-perl ~/cxgn/sgn/bin/load_composed_cvprops.pl -H breedbase_db -D breedbase_fresh -T lsuRiceMarkers
+# perl ~/cxgn/sgn/bin/load_composed_cvprops.pl -H breedbase_db -D breedbase_fresh -T lsuRiceMarkers
 
 
 
