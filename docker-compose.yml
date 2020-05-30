@@ -21,6 +21,9 @@ services:
       - type: bind
         source: ./repos/famosolabbase/lsu_img
         target: /home/production/cxgn/sgn/documents/lsu_img
+      - type: bind
+        source: ./repos/sgn/t/data/fixture/empty_fixture.sql
+        target: /home/production/cxgn/sgn/t/data/fixture/empty_fixture.sql
   breedbase_db:
     image: breedbase/pg:latest
     container_name: breedbase_db
@@ -28,7 +31,6 @@ services:
       - 5432:5432
     volumes:
       - "dbdata:/var/lib/postgresql/data"
-
 volumes:
   dbdata:
     name: bb_postgres
