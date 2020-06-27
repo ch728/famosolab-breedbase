@@ -34,8 +34,8 @@ perl ~/cxgn/sgn/bin/load_composed_cvprops.pl -H breedbase_db -D breedbase_fresh 
 perl ~/cxgn/sgn/bin/load_composed_cvprops.pl -H breedbase_db -D breedbase_fresh -T lsuRiceMarkers
 
 # Clean duplicate cv term
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "update cvterm_relationship set type_id=78356 where type_id=78718"
-psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cvterm_id=78718"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "update cvterm_relationship set type_id=79048 where type_id=79413"
+psql -U postgres -h breedbase_db -d breedbase_fresh -c "delete from cvterm where cvterm_id=79413"
 
 
 
