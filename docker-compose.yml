@@ -27,6 +27,18 @@ services:
       - type: bind
         source: ./archive
         target: /home/production/archive
+      - type: bind
+        source: ./tmp
+        target: /home/production/tmp
+      - type: bind
+        source: ./cache
+        target: /home/production/cache
+      - type: bind
+        source: ./cluster
+        target: /home/production/cluster
+      - type: bind
+        source: ./images
+        target: /home/production/public/images    
   breedbase_db:
     image: breedbase/pg:latest
     container_name: breedbase_db

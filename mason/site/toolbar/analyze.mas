@@ -1,15 +1,12 @@
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Analyze</a>
 <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools<span class="caret"></span></a> -->
   <ul class="dropdown-menu">
-    <li class="dropdown-header">Phenotypic Analysis</li>
     <li><a href="/accession_usage">Accession Usage</a></li>
     <li><a href="/tools/trial/comparison/list">Compare Trials</a></li>
     <li><a href="/tools/graphicalfiltering">Graphical Filtering</a></li>
     <li><a href="/tools/boxplotter">Boxplotter</a></li>
-    <li role="separator" class="divider"></li>
-    <li class="dropdown-header">Genetic Analysis</li>
     <li><a href="/pca/analysis/">Population Structure</a>
     <li><a href="/solgs/search/">Genomic Selection</a>
-    <!--<li role="separator" class="divider"></li>--!>
+    <li role="separator" class="divider"></li>
   </ul>
 </li>
