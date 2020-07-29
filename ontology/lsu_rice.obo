@@ -1210,7 +1210,7 @@ relationship: variable_of LSU_01:0000102
 
 [Term]
 id: LSU_01:0000157
-name: yield_delta_lb|A
+name: yield_delta_lb_A
 def: "Yield as harvest weight adjusted to pounds per acre at 12% moisture" []
 relationship: variable_of LSU_01:0000032
 relationship: variable_of LSU_01:0000082
@@ -1234,7 +1234,7 @@ relationship: variable_of LSU_01:0000102
 
 [Term]
 id: LSU_01:0000160
-name: ratoonYield_delta_lb|A
+name: ratoonYield_delta_lb_A
 def: "Ratoon yield as ratoon weight adjusted to pounds per acre at 12% moisture" []
 relationship: variable_of LSU_01:0000035
 relationship: variable_of LSU_01:0000085
