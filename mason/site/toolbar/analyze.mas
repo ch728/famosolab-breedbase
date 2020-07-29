@@ -5,8 +5,10 @@
     <li><a href="/tools/trial/comparison/list">Compare Trials</a></li>
     <li><a href="/tools/graphicalfiltering">Graphical Filtering</a></li>
     <li><a href="/tools/boxplotter">Boxplotter</a></li>
-    <li><a href="/pca/analysis/">Population Structure</a>
-    <li><a href="/solgs/search/">Genomic Selection</a>
-    <li role="separator" class="divider"></li>
+    <li><a href="/tools/heritability">Heritability</a></li>
+    <li><a href="/tools/stability">Stability AMMI</a></li>
+    <li><a href="/pca/analysis/">Population Structure</a></li>
+    <li><a href="/solgs/search/">Genomic Selection</a></li>
+    <li><a href="/tools/solgwas">GWAS</a></li>
   </ul>
 </li>
