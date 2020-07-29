@@ -1424,6 +1424,32 @@ relationship: variable_of LSU_01:0000006
 relationship: variable_of LSU_01:0000178
 relationship: variable_of LSU_01:0000108
 
+[Term]
+id: LSU_01:0000182
+name: Leaf pubescence
+def: "Presence of pubescence on leafs." []
+is_a: LSU_01:Agronomical%20traits
+
+[Term]
+id: LSU_01:0000183
+name: Leaf pubescence visual
+def: "Visual determination of leaf pubescence" []
+relationship: method_of LSU_01:0000182
+
+[Term]
+id: LSU_01:0000184
+name: Leaf pubescence class
+def: "Leaf pubescence as a binary variable; 0= no pubescence  and 1=pubescence " []
+relationship: scale_of LSU_01:0000183
+
+[Term]
+id: LSU_01:0000185
+name: leafPub_vis_bol
+def: "Visual determination of leaf pubescence as a binary variable; 0= no pubescence  and 1=pubescence " []
+relationship: variable_of LSU_01:0000184
+relationship: variable_of LSU_01:0000183
+relationship: variable_of LSU_01:0000182
+
 [Typedef]
 id: method_of
 name: method_of
