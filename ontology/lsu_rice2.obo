@@ -1,0 +1,661 @@
+format-version: 1.2
+ontology: LSU_rice_ontology
+default-namespace: lsuRice
+
+[Term]
+id: LSU_01:ROOT
+name: LSU_RICE
+
+[Term]
+id: LSU_01:Quality
+name: Quality traits
+is_a: LSU_01:ROOT
+
+[Term]
+id: LSU_01:Agronomical
+name: Agronomical traits
+is_a: LSU_01:ROOT
+
+[Term]
+id: LSU_01:Biotic_stress
+name: Biotic stress traits
+is_a: LSU_01:ROOT
+
+[Term]
+id: LSU_01:Abiotic_stress
+name: Abiotic stress traits
+is_a: LSU_01:ROOT
+
+[Term]
+id: LSU_01:Other
+name: Other
+is_a: LSU_01:ROOT
+
+[Term]
+id: LSU_01:0000001
+name: Whole milling
+def: "Whole grains after milling" []
+synonym: "whole" EXACT []
+is_a: LSU_01:Quality
+
+[Term]
+id: LSU_01:0000002
+name: Total milling
+def: "Whole and broken grains after milling" []
+synonym: "total" EXACT []
+is_a: LSU_01:Quality
+
+[Term]
+id: LSU_01:0000003
+name: Grain length
+def: "Length of grain after milling" []
+synonym: "grain_length" EXACT []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000004
+name: Grain width
+def: "Width of grain after milling" []
+synonym: "grain_width" EXACT []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000005
+name:  Grain thickness
+def: "Thickness of grain after milling" []
+synonym: "grain_thickness" EXACT []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000006
+name:  Grain length-width ratio
+def: "Ratio of grain length to width after milling" []
+synonym: "grain_lw" EXACT []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000007
+name:  Grain whiteness
+def: "Whiteness of grain ofter milling" []
+synonym: "grain_whiteness" EXACT []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000008
+name:  Grain chalkiness
+def: "Chalkiness of grain after milling" []
+synonym: "chalk" EXACT []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000009
+name:  Grain class
+def: "Class of grain as long, medium, or aromatic" []
+synonym: "grain_class" EXACT []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000010
+name:  Grain type
+def: "Description of market class based on amylose content and gel temperature" []
+synonym: "grain_type" EXACT []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000011
+name:  Amylose content
+def: "Estimation of amylose fraction of total starch." []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000012
+name:  Gelatinization temperature 
+def: "Temperature at which starch gelatinizes, which is when rice is cooked." []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000013
+name: Alkali spread value
+def: "A measure of grain intactness after treatment with KOH" []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000014
+name: Gel consistency 
+def: "A measure of cooked rice texture based on the consitency of gelatinized rice starch" []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000015
+name: Peak viscosity
+def: "Maximum viscosity during heating-cooling cycle" []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000016
+name: Trough viscosity
+def: "Minimum viscosity after peak viscosity" []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000017
+name: Breakdown
+def: "Difference between peak and trough viscosity" []
+is_a: LSU_01:Quality
+
+[Term]
+id: LSU_01:0000018
+name: Final viscosity
+def: "Viscosity after test is finished" []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000019
+name: Setback
+def: "Difference between final and trough viscosity" []
+is_a: LSU_01:Quality
+
+[Term]
+id: LSU_01:0000020
+name: Peak time
+def: "Time needed to reach peak viscosity" []
+is_a: LSU_01:Quality 
+
+[Term]
+id: LSU_01:0000021
+name: Pasting temperature
+def: "Temperature of initial viscosity increase" []
+is_a: LSU_01:Quality  
+
+[Term]
+id: LSU_01:0000022
+name: Consistency viscosity
+def: "Difference between cool paste and trough viscosity" []
+is_a: LSU_01:Quality
+
+[Term]
+id: LSU_01:0000023
+name: Emergence date
+def: "Date at which plot emerges from soil" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000024
+name: Heading date
+def: "Date at which 50% of the plot has heads emerging from boot heading" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000025
+name: Days to heading
+def: "Difference between heading date and emergence date" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000026
+name: Seedling vigor
+def: "Vigor of seedling" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000027
+name: Plant height
+def: "Average height of plants in plot" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000028
+name: Stand
+def: "A determination of fill or density of plants" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000029
+name: Lodging
+def: "A determination of the amount of fallen plants" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000030
+name: Harvest moisture
+def: "Average moisture of grain" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000031
+name: Harvest weight
+def: "Plot-level weight of grain" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000032
+name: Grain yield
+def: "Normalized grain yield" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000033
+name: Ratoon harvest moisture
+def: "Average moisture of grain from second harvest" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000034
+name: Ratoon harvest weight
+def: "Plot-level weight of grain from second harvest" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000035
+name: Ratoon grain yield
+def: "Normalized grain yield from second harvest" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000036
+name: Herbicide class
+def: "Herbicide resistance" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000037
+name: Crawfish suitability
+def: "Suitability for use of stubble in crawfish rotation" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000038
+name: Plant height uniformity
+def: "Uniformity of plant height" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000039
+name: Heading date uniformity
+def: "Uniformity of heading date" []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000040
+name: Hog damage
+def: "Hog damage" []
+is_a: LSU_01:Biotic_stress
+
+[Term]
+id: LSU_01:0000041
+name: Weed pressure
+def: "Grass weed pressure" []
+is_a: LSU_01:Biotic_stress
+
+[Term]
+id: LSU_01:0000042
+name: Sheath blight
+def: "Sheath blight severity" []
+is_a: LSU_01:Biotic_stress
+
+[Term]
+id: LSU_01:0000043
+name: Blast
+def: "Blast severity" []
+is_a: LSU_01:Biotic_stress
+
+[Term]
+id: LSU_01:0000044
+name: Bacterial sheath blight
+def: "Bacterial sheath blight severity" []
+is_a: LSU_01:Biotic_stress
+
+[Term]
+id: LSU_01:0000045
+name: Cercospora blight
+def: "Cercospora blight severity" []
+is_a: LSU_01:Biotic_stress
+
+[Term]
+id: LSU_01:0000046
+name: Herbicide damage
+def: "Damage due to off-target herbicide exposure" []
+is_a: LSU_01:Abiotic_stress
+
+
+[Term]
+id: LSU_01:0000047
+name: wholeMilling_paz-pct
+def: "Whole grain as a percentage of non-broken grain weight to rough rice weight measured by Zaccaria PAZ" []
+relationship: variable_of LSU_01:0000001
+
+
+[Term]
+id: LSU_01:0000048
+name: totalMilling_paz-pct
+def: "Total grain as a percentage of non-broken and broken grain weight to rough rice weight measured by Zaccaria PAZ" []
+relationship: variable_of LSU_01:0000002
+
+[Term]
+id: LSU_01:0000049
+name: grainLength_sc-mm
+def: "Average length of grains in mm determined by SC5000 instrument" []
+relationship: variable_of LSU_01:0000003
+
+[Term]
+id: LSU_01:0000050
+name: grainWidth_sc-mm
+def: "Average width of grains in mm determined by SC5000 instrument" []
+relationship: variable_of LSU_01:0000004
+
+[Term]
+id: LSU_01:0000051
+name: grainThickness_sc-mm
+def: "Average thickness of grains in mm determined by SC5000 instrument" []
+relationship: variable_of LSU_01:0000005
+
+[Term]
+id: LSU_01:0000052
+name: grainLengthWidth_sc-ratio
+def: "Average grain length to width ratio calculated from length and width measured with SC5000" []
+relationship: variable_of LSU_01:0000006
+
+[Term]
+id: LSU_01:0000053
+name: grainWhiteness_sc-L
+def: "Average grain whiteness as CIE L color value using SC5000" []
+relationship: variable_of LSU_01:0000007 
+
+[Term]
+id: LSU_01:0000054
+name: chalkManual_sc-pct
+def: "Percent of seeds that contain over 50% of the grain as chalky using SC5000" []
+relationship: variable_of LSU_01:0000008
+
+[Term]
+id: LSU_01:0000055
+name: chalkImpact_sc-pct
+def: "Percentage of the total area that contains chalk across grain sample using SC5000" []
+relationship: variable_of LSU_01:0000008
+
+[Term]
+id: LSU_01:0000056
+name: grainClass_vis-cat
+def: "Class of grain as a categorical factor; 1=long, 2=medium, or 3=aromatic" []
+relationship: variable_of LSU_01:0000009
+
+[Term]
+id: LSU_01:0000057
+name: amyloseContent_spec-ord
+def: "Amylose class as an ordinal factor; 1=low (< 15%), 2=intermediate (15-20%), 3=intermediate high (20-25%) ,  4=high (25-30%) determined using an iodine test coupled with spectrophotometry." []
+relationship: variable_of LSU_01:0000011
+
+[Term]
+id: LSU_01:0000058
+name: gelTemp_rva-C
+def: "Temperature where rice begins its cooking process (starch gelatinization) measured with the Rapid Visco Analyzer in Celsius" []
+relationship: variable_of LSU_01:0000012
+
+[Term]
+id: LSU_01:0000059
+name: alkaliSpreadValue_koh-ord
+def: "Digestion of grain in KOH as an ordinal factor; 1=low (5.5-7.0),  2=intermediate (3.5-5.4),  3=intermediate-high (2.6-3.4),  4=high (1.0-2.5)" []
+relationship: variable_of LSU_01:0000013
+
+[Term]
+id: LSU_01:0000060
+name: consistency_koh-ord 
+def: "Spreading of gel in milimeters as an ordinal factor; 1=soft (61-100 mm), 2=medium (41-60 mm), 3=hard (26-40 mm)." []
+relationship: variable_of LSU_01:0000014
+
+[Term]
+id: LSU_01:0000060
+name: peak_rva-cP
+def: "maximum viscosity recorded during heating and holding cycles measured in centipoise by RVA 4500" []
+relationship: variable_of LSU_01:0000015
+
+[Term]
+id: LSU_01:0000061
+name: trough_rva-cP
+def: "minimum viscosity after peak measured in centipoise by RVA 4500" []
+relationship: variable_of LSU_01:0000016
+
+[Term]
+id: LSU_01:0000062
+name: breakdown_rva-cP
+def: "difference between peak and trough measured in centipoise by RVA 4500" []
+relationship: variable_of LSU_01:0000017
+
+[Term]
+id: LSU_01:0000063
+name: finalViscosity_rva-cP
+def: "viscosity at test finish measured in centipoise by RVA 4500" []
+relationship: variable_of LSU_01:0000018
+
+[Term]
+id: LSU_01:0000064
+name: setback_rva-cP
+def: "difference between final viscosity and trough measured in centipoise by RVA 4500" []
+relationship: variable_of LSU_01:0000019
+
+[Term]
+id: LSU_01:0000065
+name: peakTime_rva-min
+def: "time required to reach peak measured in minutes by RVA 4500" []
+relationship: variable_of LSU_01:0000020
+
+[Term]
+id: LSU_01:0000066
+name: pastingTemp_rva-C
+def: "temperature of initial viscosity increase measured in Celsius by RVA 4500" []
+relationship: variable_of LSU_01:0000021
+
+[Term]
+id: LSU_01:0000067
+name: consistency_rva-cP
+def: "" []
+relationship: variable_of LSU_01:0000022
+
+[Term]
+id: LSU_01:0000068
+name: emergenceDate_vis-jd
+def: "Date in Julian days at which plot emerged from soil" []
+relationship: variable_of LSU_01:0000023
+
+[Term]
+id: LSU_01:0000069
+name: headingDate_vis-jd
+def: "Date in Julian days at which 50% of the plot has heads emerging from boot heading" []
+relationship: variable_of LSU_01:0000024
+
+[Term]
+id: LSU_01:0000070
+name: daysToHeading_vis-day
+def: "Days to heading as the difference between emergence date and heading day" []
+relationship: variable_of LSU_01:0000025
+
+
+[Term]
+id: LSU_01:0000071
+name: seedlingVigor_vis-ord
+def: "Seedling vigor rating, 1-9, lower number is more vigorous" []
+relationship: variable_of LSU_01:0000026
+
+
+[Term]
+id: LSU_01:0000072
+name: plantHeight_vis-cm
+def: "Plant height in centimeters" []
+relationship: variable_of LSU_01:0000027
+
+[Term]
+id: LSU_01:0000073
+name: stand_vis-ord
+def: "Rating of  seedlings stand relative to plot earlier in season as an ordinal rating from 0 to 100 (0=lower stand)" []
+relationship: variable_of LSU_01:0000028
+
+
+[Term]
+id: LSU_01:0000074
+name: stand2_vis-ord
+def: "Rating of  seedlings stand relative to plot later in season as an ordinal rating from 0 to 100 (0=lower stand)" []
+relationship: variable_of LSU_01:0000028
+
+
+[Term]
+id: LSU_01:0000075
+name: lodging_vis-ord
+def: "Lodged (fallen plants) as an ordinal rating from 0 to 100 (0=less lodging)" []
+relationship: variable_of LSU_01:0000029
+
+
+[Term]
+id: LSU_01:0000076
+name: harvestMoisture_delta-pct
+def: "Percent water content of harvested grain measured by NIR on Winterstieger Delta combine" []
+relationship: variable_of LSU_01:0000030
+
+
+[Term]
+id: LSU_01:0000077
+name: harvestWeight_delta-lb
+def: "Weight of harvested grain in pounds measured by Winterstieger Delta combine" []
+relationship: variable_of LSU_01:0000031
+
+
+[Term]
+id: LSU_01:0000078
+name: yield_delta-lb/A
+def: "Yield as harvest weight adjusted to pounds per acre at 12% moisture" []
+relationship: variable_of LSU_01:0000032
+
+
+[Term]
+id: LSU_01:0000079
+name: ratoonMoisture_delta-pct
+def: "Percent water content of ratoon grain measured by NIR on Winterstieger Delta combine" []
+relationship: variable_of LSU_01:0000033
+
+
+[Term]
+id: LSU_01:0000080
+name: ratoonWeight_delta-lb
+def: "Weight of ratoon grain in pounds measured by Winterstieger Delta combine" []
+relationship: variable_of LSU_01:0000034
+
+[Term]
+id: LSU_01:0000081
+name: ratoonYield_delta-lb/A
+def: "Ratoon yield as ratoon weight adjusted to pounds per acre at 12% moisture" []
+relationship: variable_of LSU_01:0000035
+
+
+[Term]
+id: LSU_01:0000082
+name: herbicideClass_vis-cat
+def: "Herbicide class as a categorical factor; 1=conventional, 2=clearfield or 3=provisia" []
+relationship: variable_of LSU_01:0000036
+
+[Term]
+id: LSU_01:0000083
+name: crawfishSuitability_vis-ord
+def: "Rating of how well a variety preforms for crawfish rotation as an ordinal factor; 1=unsuitable, 2=suitable, 3=excellent" []
+relationship: variable_of LSU_01:0000037
+
+
+[Term]
+id: LSU_01:0000084
+name: uniformPlantHeight_vis-bol
+def: "Rating of plant height uniformity as a boolean variable; uniform=1 or not uniform=0" []
+relationship: variable_of LSU_01:0000038
+
+
+[Term]
+id: LSU_01:0000085
+name: uniformHeadingDate_vis-bol 
+def: "Rating of heading date uniformity as a boolean variable; uniform=1 or not uniform=0" []
+relationship: variable_of LSU_01:0000039
+
+
+[Term]
+id: LSU_01:0000086
+name: hogDamage_vis-ord
+def: "Hog damage as an ordinal rating from 0 to 100 (0=damage)" []
+relationship: variable_of LSU_01:0000040
+
+
+[Term]
+id: LSU_01:0000087
+name: weedPressure_vis-ord
+def: "Grassy weed pressure as an ordinal factor; 0=none, 1=low, 2=medium, 3=high, 4=very high" []
+relationship: variable_of LSU_01:0000041
+
+[Term]
+id: LSU_01:0000088
+name: sheathBlight_vis-ord
+def: "Sheath blight severity from 0-9, lower is less severe" []
+relationship: variable_of LSU_01:0000042
+
+
+[Term]
+id: LSU_01:0000089
+name: blast_vis-ord
+def: "Blast severity from 0-9, lower is less severe" []
+relationship: variable_of LSU_01:0000043
+
+
+[Term]
+id: LSU_01:0000090
+name: bacterialSheathBlight_vis-ord
+def: "Bacterial sheath blight severity from 0-9, lower is less severe" []
+relationship: variable_of LSU_01:0000044
+
+[Term]
+id: LSU_01:0000091
+name: cercosporaBlight_vis-ord
+def: "Cercospora blight severity from 0-9, lower is less severe" []
+relationship: variable_of LSU_01:0000045
+
+
+[Term]
+id: LSU_01:0000092
+name: herbicideDamage_vis-ord
+def: "Damage due to off target herbicide exposure from 0-9, lower number means less damage" []
+relationship: variable_of LSU_01:0000046
+
+[Term]
+id: LSU_01:0000093
+name: gelTempClass_rva-ord
+def: "Gel temperature class based on RVA 4500 measurement in Celsius as an ordinal factor; 1=Low (55-70 C),  2=intermediate (70-74.5 C), 3=high (74.5-80 C)" []
+relationship: variable_of LSU_01:0000012
+
+[Term]
+id: LSU_01:0000094
+name: grainLength_win-mm
+def: "Average length of grains in mm determined by WinSEEDLE instrument" []
+relationship: variable_of LSU_01:0000003
+
+[Term]
+id: LSU_01:0000095
+name: grainWidth_win-mm
+def: "Average width of grains in mm determined by WinSEEDLE instrument" []
+relationship: variable_of LSU_01:0000004
+
+
+[Term]
+id: LSU_01:0000096
+name: grainLengthWidth_win-ratio
+def: "Average grain length to width ratio calculated from length and width measured with WinSEEDLE" []
+relationship: variable_of LSU_01:0000006
+
+[Term]
+id: LSU_01:0000097
+name: Leaf pubescence
+def: "Presence of pubescence on leafs." []
+is_a: LSU_01:Agronomical
+
+[Term]
+id: LSU_01:0000098
+name: leafPub_vis-bol
+def: "Visual determination of leaf pubescence as a binary variable; 0= no pubescence  and 1=pubescence " []
+relationship: variable_of LSU_01:0000097
+
+[Typedef]
+id: variable_of
+name: variable_of
+

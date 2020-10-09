@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   breedbase:
-    image: breedbase/breedbase:v0.11
+    image: breedbase/breedbase:v0.14
     depends_on:
       - breedbase_db
     container_name: breedbase_web
@@ -28,10 +28,10 @@ services:
         source: ./repos/R_libs
         target: /home/production/cxgn/R_libs
       - type: bind
-        source: ./repos/famosolabbase
-        target: /home/production/cxgn/famosolabbase
+        source: ./repos/famosolab-breedbase
+        target: /home/production/cxgn/famosolab-breedbase
       - type: bind
-        source: ./repos/famosolabbase/lsu_img
+        source: ./repos/famosolab-breedbase/lsu_img
         target: /home/production/cxgn/sgn/documents/lsu_img
       - type: bind
         source: ./archive
