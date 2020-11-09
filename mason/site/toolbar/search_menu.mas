@@ -12,8 +12,8 @@
     <!--<li><a href="/search/markers">Markers</a></li>--!>
 
 
-    <li role="separator" class="divider"></li>
-    <li><a href="/search/direct_search.pl?search=loci">Advanced Search</a></li>
+    <!--<li role="separator" class="divider"></li>--!>
+    <!--<li><a href="/search/direct_search.pl?search=loci">Advanced Search</a></li>--!>
 
   </ul>
 </li>
