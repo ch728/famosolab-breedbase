@@ -4,16 +4,12 @@
     <li><a href="/search/phenotypes/stock">Accessions and Plots</a></li>
     <li><a href="/search/cross">Progenies and Crosses</a></li>
     <li><a href="/search/trials">Field Trials</a></li>
+    <li role="separator" class="divider"></li>
     <li><a href="/search/genotyping_trials">Genotyping Plates</a></li>
     <li><a href="/search/genotyping_data_projects">Genotyping Data Projects</a></li>
     <li><a href="/search/genotyping_protocols">Genotyping Protocols</a></li>
+    <li role="separator" class="divider"></li>
     <li><a href="/search/traits">Traits</a></li>
     <li><a href="/search/images">Images</a></li>
-    <!--<li><a href="/search/markers">Markers</a></li>--!>
-
-
-    <!--<li role="separator" class="divider"></li>--!>
-    <!--<li><a href="/search/direct_search.pl?search=loci">Advanced Search</a></li>--!>
-
   </ul>
 </li>
