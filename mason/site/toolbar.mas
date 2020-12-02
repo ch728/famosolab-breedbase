@@ -14,7 +14,7 @@
         <& toolbar/search_menu.mas &>
         <& toolbar/manage.mas &>
         <& toolbar/analyze.mas &> 
-       <!--<& toolbar/about.mas &>-->
+       <& toolbar/apps.mas &>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <& toolbar/search.mas &>
