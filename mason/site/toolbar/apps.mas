@@ -1,10 +1,5 @@
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Apps</a>
 <ul class="dropdown-menu">
-    <li><a href="">PlantPlan</a></li>
-    <li><a href="">TrialCheck</a></li>
-    <li><a href="">MrBean</a></li>
-    <li><a href="">Consensus</a></li>
-    <li><a href="">KASPer</a></li>
-    <li><a href="">GenoReport</a></li>
+    <li><a href="https://lsurice.shinyapps.io/plantplan" target="_blank">PlantPlan</a></li>
   </ul>
 </li>
