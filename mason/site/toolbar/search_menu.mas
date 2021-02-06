@@ -1,6 +1,7 @@
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Search</a>
   <ul class="dropdown-menu">
     <li><a href="/breeders/search">Wizard</a></li>
+    <li role="separator" class="divider"></li>
     <li><a href="/search/phenotypes/stock">Accessions and Plots</a></li>
     <li><a href="/search/cross">Progenies and Crosses</a></li>
     <li><a href="/search/trials">Field Trials</a></li>

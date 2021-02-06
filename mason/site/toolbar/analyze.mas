@@ -1,13 +1,19 @@
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Analyze</a>
 <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools<span class="caret"></span></a> -->
   <ul class="dropdown-menu">
+    <li><a href="/analyses">Analyses &amp; Models</a></li>
+    <li role="separator" class="divider"></li>    
     <li><a href="/accession_usage">Accession Usage</a></li>
     <li><a href="/tools/trial/comparison/list">Compare Trials</a></li>
     <li><a href="/tools/graphicalfiltering">Graphical Filtering</a></li>
-   <!-- <li><a href="/tools/boxplotter">Boxplotter</a></li>-->
-   <!-- <li><a href="/tools/heritability">Heritability</a></li> -->
-   <!-- <li><a href="/tools/stability">Stability AMMI</a></li>-->
-   <!-- <li><a href="/pca/analysis/">Population Structure</a></li>-->
+    <li><a href="/tools/boxplotter">Boxplotter</a>
+    <li><a href="/pca/analysis/">Population Structure</a></li>
+    <li><a href="/cluster/analysis">Clustering</a></li>
+    <li><a href="/kinship/analysis">Kinship & Inbreeding</a></li>
+    <li role="separator" class="divider"></li>     
+    <li><a href="/tools/mixedmodels">Mixed Models</a></li>
+    <li><a href="/tools/heritability">Heritability</a></li>
+    <li><a href="/tools/stability">Stability AMMI</a></li>
     <li><a href="/solgs/search/">Genomic Selection</a></li>
     <li><a href="/tools/solgwas">GWAS</a></li>
   </ul>
